@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/JavaScript" src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Main.css">
+    <title>Living Dex</title>
+    <macrolist>
+        <macro>
+
+        </macro>
+    </macrolist>
+</head>
+
+<body>
+    <h1 class="btn_bar">
+        <span><button id="select_gen_btn">Seleziona generazione</button></span>
+        <span class="right"><button mode="dark" id="dark_light_btn">Light Mode</button></span>
+        <span class="right"><button id="change_img_btn">Cambia Visuale</button></span>
+        <span class="right"><button id="change_img_fixed_btn" style="display:none;">⇄</button></span>
+    </h1>
+
+    <div id="gen_options">
+        <span>
+            <img class="gen" id="gen_1" src="https://www.serebii.net/pokemon/generation1.png" title="1st"></img>
+            <img class="gen" id="gen_2" src="https://www.serebii.net/pokemon/generation2.png" title="2nd"></img>
+            <img class="gen" id="gen_3" src="https://www.serebii.net/pokemon/generation3.png" title="3rd"></img>
+            <img class="gen" id="gen_4" src="https://www.serebii.net/pokemon/generation4.png" title="4th"></img>
+            <img class="gen" id="gen_5" src="https://www.serebii.net/pokemon/generation5.png" title="5th"></img>
+            <img class="gen" id="gen_6" src="https://www.serebii.net/pokemon/generation6.png" title="6th"></img>
+            <img class="gen" id="gen_7" src="https://www.serebii.net/pokemon/generation7.png" title="7th"></img>
+            <img class="gen" id="gen_8" src="https://www.serebii.net/pokemon/generation8.png" title="8th"></img>
+            <img class="gen" id="gen_9" src="https://www.serebii.net/pokemon/generation9.png" title="9th"></img>
+        </span>
+    </div>
+
+    <!-- MODALE per le IMMAGINI dei POKEMON -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <!-- TABELLA -->
+        <div style="display: flex;justify-content: center;">
+            <table id="table_modal">
+                <tr>
+                    <!-- <td style="width: 100px;">
+
+                    </td> -->
+                    <td>
+                        <table id="table_vg_info">
+                            <tr><!-- Nome e Numero -->
+                                <td id="td_name_num">
+                                    <div id="vg_name"></div>
+                                    <div id="vg_num"></div>
+                                </td>
+                            </tr>
+                            <tr><!-- Artwork Ufficiale -->
+                                <td id="td_image_modal">
+                                    <img class="modal-content" id="artwork_modal_img">
+                                </td>
+                            </tr>
+                            <tr><!-- Tipi -->
+                                <td id="td_types_modal">
+                                    <div class="types" id="type1"></div>
+                                    <div class="types" id="type2"></div>
+                                </td>
+                            </tr>
+                            <tr style="height: 10px;background-color: gray;">
+                                <td></td>
+                            </tr>
+                            <tr><!-- Peso - Altezza -->
+                                <td id="td_body_modal">
+                                    <table id="body_table">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="2">Height </th>
+                                                <th colspan="2">Weight </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td id="height" colspan="2"></td>
+                                                <td id="weight" colspan="2"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr style="height: 10px;background-color: gray;">
+                                <td></td>
+                            </tr>
+                            <tr><!-- Abilità -->
+                                <td id="td_ability_modal">
+                                    <table id="ability_table">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="2">1st Ability</th>
+                                                <th colspan="2">2nd Ability</th>
+                                                <th colspan="2">Hidden Ability</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td id="first_ability" colspan="2"></td>
+                                                <td id="second_ability" colspan="2"></td>
+                                                <td id="hidden_ability" colspan="2"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr style="height: 10px;background-color: gray;">
+                                <td></td>
+                            </tr>
+                            <tr><!-- Uova -->
+                                <td id="td_egg_modal">
+                                    <table id="egg_table">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="2">1st Egg Group</th>
+                                                <th colspan="2">2nd Egg Group</th>
+                                                <th colspan="2">Egg Cycles </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td id="first_egg_group" colspan="2"></td>
+                                                <td id="second_egg_group" colspan="2"></td>
+                                                <td id="egg_cycle" colspan="2"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr style="height: 10px;background-color: gray;">
+                                <td></td>
+                            </tr>
+                            <tr><!-- Exp-Catch -->
+                                <td id="td_exp_modal">
+                                    <table id="exp_table">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="2">Catch Rate</th>
+                                                <th colspan="2">Base EXP</th>
+                                                <th colspan="2">Total EXP</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td id="catch_rate" colspan="2"></td>
+                                                <td id="base_exp" colspan="2"></td>
+                                                <td id="total_exp" colspan="2"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr style="height: 10px;background-color: gray;">
+                                <td></td>
+                            </tr>
+                            <tr><!-- Stats -->
+                                <td id="td_stat_modal">
+                                    <table id="stat_table">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="2"
+                                                    style="text-align: center; font-size: 40px;color: black;">
+                                                    Stats
+                                                </th>
+                                                <th style="text-align: left; font-size: 30px;color: black;">
+                                                    EV
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tr id="hp_row">
+                                            <td class="stat_data_td">
+                                                <div class="stat_name">HP:</div>
+                                                <div class="stat_value"></div>
+                                            </td>
+                                            <td class="stat_bar_td" width="255px;">
+                                                <div class="stat_bar"></div>
+                                            </td>
+                                            <td class="stat_ev_td">
+                                                <div class="stat_ev"></div>
+                                            </td>
+                                        </tr>
+                                        <tr id="atk_row">
+                                            <td class="stat_data_td">
+                                                <div class="stat_name">Attack:</div>
+                                                <div class="stat_value"></div>
+                                            </td>
+                                            <td class="stat_bar_td" width="255px;">
+                                                <div class="stat_bar"></div>
+                                            </td>
+                                            <td class="stat_ev_td">
+                                                <div class="stat_ev"></div>
+                                            </td>
+                                        </tr>
+                                        <tr id="def_row">
+                                            <td class="stat_data_td">
+                                                <div class="stat_name">Defense:</div>
+                                                <div class="stat_value"></div>
+                                            </td>
+                                            <td class="stat_bar_td" width="255px;">
+                                                <div class="stat_bar"></div>
+                                            </td>
+                                            <td class="stat_ev_td">
+                                                <div class="stat_ev"></div>
+                                            </td>
+                                        </tr>
+                                        <tr id="atksp_row">
+                                            <td class="stat_data_td">
+                                                <div class="stat_name">Sp. Attack:</div>
+                                                <div class="stat_value"></div>
+                                            </td>
+                                            <td class="stat_bar_td" width="255px;">
+                                                <div class="stat_bar"></div>
+                                            </td>
+                                            <td class="stat_ev_td">
+                                                <div class="stat_ev"></div>
+                                            </td>
+                                        </tr>
+                                        <tr id="defsp_row">
+                                            <td class="stat_data_td">
+                                                <div class="stat_name">Sp. Defense:</div>
+                                                <div class="stat_value"></div>
+                                            </td>
+                                            <td class="stat_bar_td" width="255px;">
+                                                <div class="stat_bar"></div>
+                                            </td>
+                                            <td class="stat_ev_td">
+                                                <div class="stat_ev"></div>
+                                            </td>
+                                        </tr>
+                                        <tr id="spe_row">
+                                            <td class="stat_data_td">
+                                                <div class="stat_name">Speed:</div>
+                                                <div class="stat_value"></div>
+                                            </td>
+                                            <td class="stat_bar_td" width="255px;">
+                                                <div class="stat_bar"></div>
+                                            </td>
+                                            <td class="stat_ev_td">
+                                                <div class="stat_ev"></div>
+                                            </td>
+                                        </tr>
+                                        <tr id="tot_row">
+                                            <td class="stat_data_td">
+                                                <div class="stat_name">Total:</div>
+                                                <div class="stat_value"></div>
+                                            </td>
+                                            <td class="stat_bar_td" width="255px;">
+                                                <div class="stat_bar"></div>
+                                            </td>
+                                            <td class="stat_ev_td">
+                                                <div class="stat_ev"></div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td style="width: 10px;">
+
+                    </td>
+                    <td rowspan="3" id="td_card_modal">
+                        <img id="card_modal_img">
+                        <!-- <div id="div_card_modal"> -->
+                        <div class="card_info" id="card_modal_logo"><img id="img_set_logo"></div>
+                        <!-- <div class="card_info" id="card_modal_set">SET</div> -->
+                        <!-- <div class="card_info" id="card_modal_symbol">Symbol</div> -->
+                        <!-- </div> -->
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br />
+    <!-- TABELLA POKEDEX -->
+    <div id="gen_table_div"></div>
+
+    <script type="module" src="Main.js"></script>
+
+</body>
+
+</html>

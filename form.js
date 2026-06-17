@@ -1,0 +1,158 @@
+//MEGA
+const megaX = ['Mega Raichu X', 'Mega Charizard X', 'Mega Mewtwo X'];
+const megaY = ['Mega Raichu Y', 'Mega Charizard Y', 'Mega Mewtwo Y'];
+const megaZ = ['Mega Absol Z', 'Mega Lucario Z', 'Mega Garchomp Z'];
+const mega = { megaX, megaY, megaZ }
+
+//GIGAMAX
+const giga = [];
+
+//REGIONAL FORM
+const alolan = ['Alolan Rattata', 'Alolan Raticate', 'Alolan Raichu', 'Alolan Sandshrew', 'Alolan Sandslash', 'Alolan Vulpix', 'Alolan Raticate', 'Alolan Diglett', 'Alolan Dugtrio',
+    'Alolan Meowth', 'Alolan Persian', 'Alolan Geodude', 'Alolan Graveler', 'Alolan Golem', 'Alolan Grimer', 'Alolan Muk', 'Alolan Exeggutor', 'Alolan Marowak'];
+const galarian = ['Galarian Meowth', 'Galarian Ponyta', 'Galarian Rapidash', 'Galarian Slowpoke', 'Galarian Slowbro', 'Galarian Farfetch\'d', 'Galarian Weezing', 'Galarian Mr. Mime',
+    'Galarian Articuno', 'Galarian Zapdos', 'Galarian Moltres', 'Galarian Slowking', 'Galarian Corsola', 'Galarian Zigzagoon', 'Galarian Linoone', 'Galarian Darumaka', 'Galarian Darmanitan',
+    'Galarian Darmanitan Zen-Mode', 'Galarian Yamask', 'Galarian Stunfisk'];
+const hisuian = ['Hisuian Growlithe', 'Hisuian Arcanine', 'Hisuian Voltorb', 'Hisuian Electrode', 'Hisuian Typhlosion', 'Hisuian Qwilfish', 'Hisuian Sneasel', 'Hisuian Samurott',
+    'Hisuian Lilligant', 'Hisuian Basculin', 'Hisuian Zorua', 'Hisuian Zoroark', 'Hisuian Sliggoo', 'Hisuian Goodra', 'Hisuian Avalugg', 'Hisuian Decidueye'];
+const paldean = ['Paldean Tauros Combat Breed', 'Paldean Tauros Blaze Breed', 'Paldean Tauros Aqua Breed', 'Paldean Wooper'];
+const regional = { alolan, galarian, hisuian, paldean }
+
+//OTHER FORMS
+const otherForms = {
+    //3a
+    'Castform Sunny Form': '-s',
+    'Castform Rainy Form': '-r',
+    'Castform Snowy Form': '-i',
+    'Deoxys Attack Form': '-a',
+    'Deoxys Defense Form': '-d',
+    'Deoxys Speed Form': '-s',
+    //4a
+    'Burmy Sandy Form': '-s',
+    'Burmy Trash Form': '-t',
+    'Wormadam Sandy Form': '-c',
+    'Wormadam Trash Form': '-t',
+    'Cherrim Sunshine Form': '-s',
+    'Shellos East-Sea Form': '-e',
+    'Gastrodon East-Sea Form': '-e',
+    'Heat Rotom': '-h',
+    'Wash Rotom': '-w',
+    'Frost Rotom': '-f',
+    'Fan Rotom': '-s',
+    'Mow Rotom': '-m',
+    'Dialga Origin Form': '-o',
+    'Palkia Origin Form': '-o',
+    'Giratina Origin Form': '-o',
+    'Shaymin Sky Form': '-s',
+    //5a
+    'Basculin Blue Stripe': '-b',
+    'Darmanitan Zen-Mode': '-z',
+    'Deerling Summer Form': '-s',
+    'Deerling Autumn Form': '-a',
+    'Deerling Winter Form': '-w',
+    'Sawsbuck Summer Form': '-s',
+    'Sawsbuck Autumn Form': '-a',
+    'Sawsbuck Winter Form': '-w',
+    'Tornadus Therian Form': '-t',
+    'Thundurus Therian Form': '-t',
+    'Landorus Therian Form': '-t',
+    'White Kyurem': '-w',
+    'Black Kyurem': '-b',
+    'Keldeo Resolute Form': '-r',
+    'Meloetta Pirouette Form': '-p',
+    //6a
+    'Ash Greninja': '-a',
+    'Vivillon Polar Pattern': '-p',
+    'Vivillon Tundra Pattern': '-t',
+    'Vivillon Continental Pattern': '-c',
+    'Vivillon Garden Pattern': '-g',
+    'Vivillon Elegant Pattern': '-e',
+    'Vivillon Icy Snow Pattern': '-i',
+    'Vivillon Modern Pattern': '-mo',
+    'Vivillon Marine Pattern': '-ma',
+    'Vivillon Archipelago Pattern': '-a',
+    'Vivillon High Plains Pattern': '-h',
+    'Vivillon Sandstorm Pattern': '-s',
+    'Vivillon River Pattern': '-r',
+    'Vivillon Monsoon Pattern': '-mon',
+    'Vivillon Savanna Pattern': '-sa',
+    'Vivillon Sun Pattern': '-su',
+    'Vivillon Ocean Pattern': '-o',
+    'Vivillon Jungle Pattern': '-j',
+    'Vivillon Fancy Pattern': '-f',
+    'Vivillon Poké Ball Pattern': '-pb',
+    'Meowstic Female': '-f',
+    'Aegislash Blade Form': '-b',
+    'Pumpkaboo Average': '-n',
+    'Pumpkaboo Large': '-l',
+    'Pumpkaboo Super': '-h',
+    'Gourgeist Average': '-n',
+    'Gourgeist Large': '-l',
+    'Gourgeist Super': '-h',
+    'Zygarde 10% Form': '-10',
+    'Zygarde Complete Form': '-c',
+    'Unbound Hoopa': '-u',
+    //6a
+    'Furfrou Heart Trim': '-h',
+    'Furfrou Star Trim': '-s',
+    'Furfrou Diamond Trim': '-d',
+    'Furfrou Debutante Trim': '-de',
+    'Furfrou Matron Trim': '-m',
+    'Furfrou Dandy Trim': '-da',
+    'Furfrou La Reine Trim': '-l',
+    'Furfrou Kabuki Trim': '-k',
+    'Furfrou Pharaoh Trim': '-p',
+    'Eternal Floette': '-e',
+    //7a
+    'Oricorio Pom-Pom Style': '-p',
+    'Oricorio Pa\'u Style': '-pau',
+    'Oricorio Sensu Style': '-s',
+    'Lycanroc Midnight Form': '-m',
+    'Lycanroc Dusk Form': '-d',
+    'Wishiwashi School Form': '-s',
+    'Minior Red Core': '-r',
+    'Minior Orange Core': '-o',
+    'Minior Yellow Core': '-y',
+    'Minior Green Core': '-g',
+    'Minior Blue Core': '-b',
+    'Minior Indigo Core': '-i',
+    'Minior Purple Core': '-v',
+    'Dusk Mane Necrozma': '-dm',
+    'Dawn Wings Necrozma': '-dw',
+    'Ultra Necrozma': '-u',
+    'Magearna Original Color': '-o',
+    'Mega Magearna Original Color': '-mo',
+
+    //8a
+    'Toxtricity Low-Key Form': '-l',
+    'Eiscue Noice Face': '-n',
+    'Indeedee Female': '-f',
+    'Morpeko Hangry Mode': '-h',
+    'Zacian Crowned Sword': '-c',
+    'Zamazenta Crowned Shield': '-c',
+    'Urshifu Rapid Strike Style': '-r',
+    'Calyrex Ice Rider': '-i',
+    'Calyrex Shadow Rider': '-s',
+    'Basculegion Felame': '-f',
+    'Enamorus Therian Style': '-s',
+    //9a
+    'Oinkologne Female': '-f',
+    'Maushold Family of Four': '-f',
+    'Squawkabilly Blue Plumage': '-b',
+    'Squawkabilly Yellow Plumage': '-y',
+    'Squawkabilly White Plumage': '-w',
+    'Palafin Hero Form': '-h',
+    'Tatsugiri Droopy Form': '-d',
+    'Tatsugiri Stretchy Form': '-s',
+    'Mega Tatsugiri Droopy Form': '-md',
+    'Mega Tatsugiri Stretchy Form': '-ms',
+    'Dudunsparce Three-Segment Form': '-t',
+    'Gimmighoul Roaming Form': '-r',
+    'Wellspring Mask Ogerpon': '-w',
+    'Hearthflame Mask Ogerpon': '-h',
+    'Cornerstone Mask Ogerpon': '-c',
+    'Terastal Form Terapagos': '-t',
+    'Stellar Form Terapagos': '-s',
+}
+
+export { mega, giga, regional, otherForms };
