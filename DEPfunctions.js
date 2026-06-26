@@ -20,7 +20,7 @@ export function imageModal(i) {
     // Get the card and insert it inside the modal
     let modalCard = document.getElementById("card_modal_img");
     modalCard.src = `https://images.pokemontcg.io/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
-    // modalCard.src = `./Images/Cards/${currentLine[id]}.jpg`;
+    // modalCard.src = `./Images/cards/${currentLine[id]}.jpg`;
 
     //Build stat table
     let totalEv = 0;
@@ -53,11 +53,11 @@ export function imageModal(i) {
     let num = document.getElementById("vg_num");
     num.innerHTML = `<span style="font-size: 35px;">No.</span> ${currentLine[n]}`;
 
-    //Types Info
+    //types Info
     let type1 = document.getElementById("type1");
-    type1.innerHTML = `<img class="img_types" src="./Images/Types/${currentLine[t1]}.png">`;
+    type1.innerHTML = `<img class="img_types" src="./Images/types/${currentLine[t1]}.png">`;
     let type2 = document.getElementById("type2");
-    type2.innerHTML = currentLine[t2] ? `<img class="img_types" src="./Images/Types/${currentLine[t2]}.png">` : '';
+    type2.innerHTML = currentLine[t2] ? `<img class="img_types" src="./Images/types/${currentLine[t2]}.png">` : '';
 
     //Abilities Info
     let ability1 = document.getElementById("first_ability");

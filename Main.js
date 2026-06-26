@@ -255,7 +255,7 @@ $(document).ready(function () {
                                     }
 
                                     let artworkLink = `https://www.serebii.net/pokemon/art/${linkNumber}.png`;
-                                    let cardPath = `./images/Cards/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
+                                    let cardPath = `./images/cards/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
                                     let cardLink = `https://images.pokemontcg.io/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
 
                                     let img = artworkLink;
@@ -428,18 +428,18 @@ function imageModal(i) {
 
     // Get the card and insert it inside the modal
     let modalCard = document.getElementById("card_modal_img");
-    modalCard.src = `./images/Cards/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
+    modalCard.src = `./images/cards/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
     modalCard.onerror = function () {
         this.src = `https://images.pokemontcg.io/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
         this.onerror = null;
     };
-    // modalCard.src = `./Images/Cards/${currentLine[id]}.jpg`;
+    // modalCard.src = `./Images/cards/${currentLine[id]}.jpg`;
     // let setName = document.getElementById("card_modal_set");
     // setName.textContent = currentLine[set];
     let setLogo = document.getElementById("img_set_logo");
-    setLogo.src = `./Images/Set Logos/${currentLine[set].split(' ').join('_')}_Logo.png`;
+    setLogo.src = `./Images/set-logos/${currentLine[set].split(' ').join('_')}_Logo.png`;
     // let setSymbol = document.getElementById("card_modal_symbol");
-    // setSymbol.innerHTML = currentLine[set] ? `<img class="img_set_symbol" src="./Images/Set Symbols/SetSymbol${currentLine[set].split(' ').join('_')}.png">` : '';
+    // setSymbol.innerHTML = currentLine[set] ? `<img class="img_set_symbol" src="./Images/set-symbols/SetSymbol${currentLine[set].split(' ').join('_')}.png">` : '';
 
     //Build stat table
     let totalEv = 0;
@@ -472,11 +472,11 @@ function imageModal(i) {
     let num = document.getElementById("vg_num");
     num.innerHTML = `<span style="font-size: 35px;">No.</span> ${currentLine[n]}`;
 
-    //Types Info
+    //types Info
     let type1 = document.getElementById("type1");
-    type1.innerHTML = `<img class="img_types" src="./Images/Types/${currentLine[t1]}.png">`;
+    type1.innerHTML = `<img class="img_types" src="./Images/types/${currentLine[t1]}.png">`;
     let type2 = document.getElementById("type2");
-    type2.innerHTML = currentLine[t2] ? `<img class="img_types" src="./Images/Types/${currentLine[t2]}.png">` : '';
+    type2.innerHTML = currentLine[t2] ? `<img class="img_types" src="./Images/types/${currentLine[t2]}.png">` : '';
 
     //Abilities Info
     let ability1 = document.getElementById("first_ability");
