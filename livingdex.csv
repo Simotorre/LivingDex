@@ -39,8 +39,8 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 25;25_1;Pikachu;Gigamax Pikachu;1;;;;;;;;;;;;;;;;;;;Gigamax;;;;;;;;;;;;;;;SWSH Black Star Promos;SWSH286;x
 26;26_0;Raichu;Raichu;1;0.8;30;Electric;;Static;;Lightning Rod;Yellow;50;50;0;10;Ground;Fairy;75;243;1000000;Ordinary;;;60;90;55;90;80;110;485;0;0;0;0;0;3;XY Evolutions;36;x
 26;26_1;Raichu;Alolan Raichu;7;0.7;21;Electric;Psychic;Surge Surfer;;;Brown;50;50;0;10;Ground;Fairy;75;243;1000000;Ordinary;;Alolan;60;85;50;95;85;110;485;0;0;0;0;0;3;SM Crimson Invasion;31;x
-26;26_2;Raichu;Mega Raichu X;1;;;;;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;;;
-26;26_3;Raichu;Mega Raichu Y;1;;;;;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;;;
+26;26_2;Raichu;Mega Raichu X;1;1,2;38;Electric;;Electric Surge;;;Yellow;50;50;0;10;Field;Fairy;75;218;1000000;Ordinary;Mega;;60;135;95;90;95;110;585;0;0;0;0;0;3;;;
+26;26_3;Raichu;Mega Raichu Y;1;1;26;Electric;;No Guard;;;Yellow;50;50;0;10;Field;Fairy;75;218;1000000;Ordinary;Mega;;60;100;55;160;80;130;585;0;0;0;0;0;3;;;
 27;27_0;Sandshrew;Sandshrew;1;0.6;12;Ground;;Sand Veil;;Sand Rush;Yellow;50;50;0;20;Ground;;255;60;1000000;Ordinary;;;50;75;85;20;30;40;300;0;0;1;0;0;0;Base Set;62;x
 27;27_1;Sandshrew;Alolan Sandshrew;7;0.7;40;Ice;Steel;Snow Cloak;;Slush Rush;White;50;50;0;20;Ground;;255;60;1000000;Ordinary;;Alolan;50;75;90;10;35;40;300;0;0;1;0;0;0;SM Guardian Rising;19;x
 28;28_0;Sandslash;Sandslash;1;1;29.5;Ground;;Sand Veil;;Sand Rush;Yellow;50;50;0;20;Ground;;90;158;1000000;Ordinary;;;75;100;110;45;55;65;450;0;0;2;0;0;0;Fossil;41;x
@@ -53,7 +53,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 34;34_0;Nidoking;Nidoking;1;1.4;62;Poison;Ground;Poison Point;Rivalry;Sheer Force;Purple;100;0;0;20;Monster;Ground;45;253;1059860;Ordinary;;;81;102;77;85;75;85;505;0;3;0;0;0;0;XY Evolutions;45;x
 35;35_0;Clefairy;Clefairy;1;0.6;7.5;Fairy;;Cute Charm;Magic Guard;Friend Guard;Pink;25;75;0;10;Fairy;;150;113;800000;Ordinary;;;70;45;48;60;65;35;323;2;0;0;0;0;0;XY Evolutions;63;x
 36;36_0;Clefable;Clefable;1;1.3;40;Fairy;;Cute Charm;Magic Guard;Unaware;Pink;25;75;0;10;Fairy;;25;242;800000;Ordinary;;;95;70;73;95;90;60;483;3;0;0;0;0;0;Jungle;17;
-36;36_1;Clefable;Mega Clefable;1;1.7;42.3;Fairy;Flying;;;;Pink;25;75;0;10;Fairy;;;;;;Mega;;95;80;93;135;110;70;583;3;0;0;0;0;0;;;
+36;36_1;Clefable;Mega Clefable;1;1.7;42.3;Fairy;Flying;;;;Pink;25;75;0;10;Fairy;;;;;Ordinary;Mega;;95;80;93;135;110;70;583;3;0;0;0;0;0;;;
 37;37_0;Vulpix;Vulpix;1;0.6;9.9;Fire;;Flash Fire;;Drought;Brown;25;75;0;20;Ground;;190;60;1000000;Ordinary;;;38;41;40;50;65;65;299;0;0;0;0;0;1;XY Evolutions;14;x
 37;37_1;Vulpix;Alolan Vulpix;7;0.6;9.9;Ice;;Snow Cloak;;Snow Warning;White;25;75;0;20;Ground;;190;60;1000000;Ordinary;;Alolan;38;41;40;50;65;65;299;0;0;0;0;0;1;SM Guardian Rising;21;x
 38;38_0;Ninetales;Ninetales;1;1.1;19.9;Fire;;Flash Fire;;Drought;Yellow;25;75;0;20;Ground;;75;177;1000000;Ordinary;;;73;76;75;81;100;100;505;0;0;0;0;1;1;XY Evolutions;15;x
@@ -651,7 +651,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 484;484_0;Palkia;Palkia;4;4.2;336;Water;Dragon;Pressure;;Telepathy;Purple;0;0;100;120;Undiscovered;;3;340;1250000;Legendary;;;90;120;100;150;120;100;680;0;0;0;3;0;0;Diamond & Pearl;11;x
 484;484_1;Palkia;Palkia Origin Form;4;6.3;660;Water;Dragon;Pressure;;Telepathy;Purple;0;0;100;120;Undiscovered;;3;340;1250000;Legendary;;;90;100;100;150;120;120;680;0;0;0;3;0;0;;;
 485;485_0;Heatran;Heatran;4;1.7;430;Fire;Steel;Flash Fire;;Flame Body;Brown;50;50;0;10;Undiscovered;;3;300;1250000;Semi-Legendary;;;91;90;106;130;106;77;600;0;0;0;3;0;0;DP Legends Awakened;6;x
-485;485_1;Heatran;Mega Heatran;;;;;;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;;;
+485;485_1;Heatran;Mega Heatran;4;;;;;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;;;
 486;486_0;Regigigas;Regigigas;4;3.7;420;Normal;;Slow Start;;;White;0;0;100;120;Undiscovered;;3;335;1250000;Semi-Legendary;;;110;160;110;80;110;100;670;0;3;0;0;0;0;DP Legends Awakened;15;
 487;487_0;Giratina;Giratina;4;4.5;750;Ghost;Dragon;Pressure;;Telepathy;Black;0;0;100;120;Undiscovered;;3;340;1250000;Legendary;;;150;100;120;100;120;90;680;3;0;0;0;0;0;DP Legends Awakened;4;
 487;487_1;Giratina;Giratina Origin Form;4;6.9;650;Ghost;Dragon;Levitate;;;Black;0;0;100;120;Undiscovered;;3;340;1250000;Legendary;;;150;120;100;120;100;90;680;3;0;0;0;0;0;Platinum;10;x
@@ -659,7 +659,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 489;489_0;Phione;Phione;4;0.4;3.1;Water;;Hydration;;;Blue;0;0;100;40;Water1;Fairy;30;216;1250000;Mythical;;;80;80;80;80;80;80;480;1;0;0;0;0;0;DP Majestic Dawn;12;
 490;490_0;Manaphy;Manaphy;4;0.3;1.4;Water;;Hydration;;;Blue;0;0;100;10;Water1;Fairy;3;270;1250000;Mythical;;;100;100;100;100;100;100;600;3;0;0;0;0;0;Diamond & Pearl;9;x
 491;491_0;Darkrai;Darkrai;4;1.5;50.5;Dark;;Bad Dreams;;;Black;0;0;100;120;Undiscovered;;3;270;1250000;Mythical;;;70;90;90;135;90;125;600;0;0;0;2;0;1;DP Great Encounters;4;
-491;491_1;Darkrai;Mega Darkrai;;;;;;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;;;
+491;491_1;Darkrai;Mega Darkrai;4;;;;;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;;;
 492;492_0;Shaymin;Shaymin Land Form;4;0.2;2.1;Grass;;Natural Cure;;;Green;0;0;100;120;Undiscovered;;45;270;1059860;Mythical;;;100;100;100;100;100;100;600;3;0;0;0;0;0;Platinum;14;x
 492;492_1;Shaymin;Shaymin Sky Form;4;0.4;5.2;Grass;Flying;Serene Grace;;;Green;0;0;100;120;Undiscovered;;45;270;1059860;Mythical;;;100;103;75;120;75;127;600;0;0;0;0;0;3;Platinum;15;x
 493;493_0;Arceus;Arceus;4;3.2;320;Normal;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR5;x
@@ -874,7 +874,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 657;657_0;Frogadier;Frogadier;6;0.6;10.9;Water;;Torrent;;Protean;Blue;87.5;12.5;0;20;Water1;;45;142;1059860;Ordinary;;;54;63;52;83;56;97;405;0;0;0;0;0;2;XY;40;x
 658;658_0;Greninja;Greninja;6;1.5;40;Water;Dark;Torrent;;Protean;Blue;100;0;0;20;Water1;;45;265;1059860;Ordinary;;;72;95;67;103;71;122;530;0;0;0;0;0;3;XY;41;
 658;658_1;Greninja;Ash Greninja;6;1.5;40;Water;Dark;Battle Bond;;;Blue;100;0;0;20;Undiscovered;;45;288;1059860;Ordinary;;;72;145;67;153;71;132;640;0;0;0;0;0;3;XY;;
-658;658_1;Greninja;Mega Greninja;6;;;Water;Dark;;;;;87.5;12.5;0;;;;;;;;Mega;;;;;;;;;;;;;;;;;
+658;658_1;Greninja;Mega Greninja;6;;;Water;Dark;;;;;87.5;12.5;0;;;;;;;;Mega;;;;;;;;;;;;;;;ME Chaos Rising;22;
 659;659_0;Bunnelby;Bunnelby;6;0.4;5;Normal;;Pickup;Cheek Pouch;Huge Power;Brown;50;50;0;15;Ground;;255;47;1000000;Ordinary;;;38;36;38;32;36;57;237;0;0;0;0;0;1;XY;111;x
 660;660_0;Diggersby;Diggersby;6;1;42.4;Normal;Ground;Pickup;Cheek Pouch;Huge Power;Brown;50;50;0;15;Ground;;127;148;1000000;Ordinary;;;85;56;77;50;77;78;423;2;0;0;0;0;0;XY;112;x
 661;661_0;Fletchling;Fletchling;6;0.3;1.7;Normal;Flying;Big Pecks;;Gale Wings;Red;50;50;0;15;Flying;;255;56;1059860;Ordinary;;;45;50;43;40;38;62;278;0;0;0;0;0;1;XY;113;
