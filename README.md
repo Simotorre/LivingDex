@@ -16,5 +16,6 @@ If you are a rights holder and have concerns regarding any content in this repos
 ## Credits
 The images used in this project were sourced from:
 https://www.serebii.net
+https://pokemontcg.io
 
 This project was created for personal and educational purposes only.
