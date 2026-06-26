@@ -433,13 +433,13 @@ function imageModal(i) {
         this.src = `https://images.pokemontcg.io/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
         this.onerror = null;
     };
-    // modalCard.src = `./Images/cards/${currentLine[id]}.jpg`;
+    // modalCard.src = `./images/cards/${currentLine[id]}.jpg`;
     // let setName = document.getElementById("card_modal_set");
     // setName.textContent = currentLine[set];
     let setLogo = document.getElementById("img_set_logo");
-    setLogo.src = `./Images/set-logos/${currentLine[set].split(' ').join('_')}_Logo.png`;
+    setLogo.src = `./images/set-logos/${currentLine[set].split(' ').join('_')}_Logo.png`;
     // let setSymbol = document.getElementById("card_modal_symbol");
-    // setSymbol.innerHTML = currentLine[set] ? `<img class="img_set_symbol" src="./Images/set-symbols/SetSymbol${currentLine[set].split(' ').join('_')}.png">` : '';
+    // setSymbol.innerHTML = currentLine[set] ? `<img class="img_set_symbol" src="./images/set-symbols/SetSymbol${currentLine[set].split(' ').join('_')}.png">` : '';
 
     //Build stat table
     let totalEv = 0;
@@ -474,9 +474,9 @@ function imageModal(i) {
 
     //types Info
     let type1 = document.getElementById("type1");
-    type1.innerHTML = `<img class="img_types" src="./Images/types/${currentLine[t1]}.png">`;
+    type1.innerHTML = `<img class="img_types" src="./images/types/${currentLine[t1]}.png">`;
     let type2 = document.getElementById("type2");
-    type2.innerHTML = currentLine[t2] ? `<img class="img_types" src="./Images/types/${currentLine[t2]}.png">` : '';
+    type2.innerHTML = currentLine[t2] ? `<img class="img_types" src="./images/types/${currentLine[t2]}.png">` : '';
 
     //Abilities Info
     let ability1 = document.getElementById("first_ability");
