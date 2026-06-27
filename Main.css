@@ -125,14 +125,23 @@ button#gen_options img {
   padding: 10px;
   opacity: 1;
 } */
-#gen_table {
+#gen_table,
+#regional_form_table,
+#mega_form_table,
+#giga_form_table,
+#alt_form_table {
   display: grid;
   gap: 4px;
-  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
-@media (max-width: 600px) {
-  #gen_table {
+@media (max-width: 1000px) {
+
+  #gen_table,
+  #regional_form_table,
+  #mega_form_table,
+  #giga_form_table,
+  #alt_form_table {
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 2px;
   }
@@ -170,7 +179,8 @@ button#gen_options img {
   backface-visibility: hidden;
   object-fit: cover;
   border-radius: 10px;
-  inset: 0; //new
+  inset: 0;
+  /* new */
 }
 
 .back {

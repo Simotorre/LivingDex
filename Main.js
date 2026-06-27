@@ -83,10 +83,16 @@ $(document).ready(function () {
         };
 
         $("#gen_options").css({ 'background-color': mode === 'dark' ? "#FFFFFF" : "#000000", 'border': `1px solid ${color}` })
-        $("#gen_table").find("th").css(cssObj);
-        $("#gen_table").find("td:not(.checkbox)").css(cssObj);
-        $("#gen_table").find("td.checkbox").css({ 'background-color': `${mode === 'dark' ? "#FFFFFF" : "#000000"}` });
-        $("#gen_table").find("td.checkbox label").css({ 'color': `${color}` });
+        // $("#gen_table").find("th").css(cssObj);
+        // $("#gen_table").find("td:not(.checkbox)").css(cssObj);
+        // $("#gen_table").find("td.checkbox").css({ 'background-color': `${mode === 'dark' ? "#FFFFFF" : "#000000"}` });
+        // $("#gen_table").find("td.checkbox label").css({ 'color': `${color}` });
+        $(".table_title").css({ 'color': `${color}` });
+        $("#gen_table").find("div.cell").css(cssObj);
+        $("#regional_form_table").find("div.cell").css(cssObj);
+        $("#mega_form_table").find("div.cell").css(cssObj);
+        $("#giga_form_table").find("div.cell").css(cssObj);
+        $("#alt_form_table").find("div.cell").css(cssObj);
 
         //Functions CSS
         $("table.functions").find("td:first-child").css('color', color);
@@ -301,83 +307,128 @@ $(document).ready(function () {
                     //     j++;
                     // });
                     // html2 += '</tbody></table><br/>';
-                    let html2 = `<div class='table_title'>MAIN DEX</div>
-                                <div id="gen_table">`;
+                    let html2 = `<div class='table_title'>MAIN DEX</div>\n
+                            <div id="gen_table">`;
                     genDex.forEach(pkm => {
-                        html2 += `
-                            <div class="cell ${pkm.have ? 'have' : ''}" style="perspective: 1000px;">
-                                <div class="flip-card">
-                                <img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">
-                                <img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">
-                                </div>
-                            </div>
-                            `;
+                        html2 += `<div class="cell" style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;border: 1px solid ${color}">`;
+                        html2 += `<div class="flip-card">`;
+                        html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                        html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                        html2 += `</div></div>`;
                     });
                     html2 += `</div><br/>`;
                     //Regional Form Dex Table
-                    j = 1;
+                    // j = 1;
+                    // if (regionalForm.length > 0) {
+                    //     html2 += `<br/><div class='table_title'>REGIONAL FORM</div>\n
+                    //         <table id="regional_form_table"><tbody>`;
+                    //     regionalForm.forEach(pkm => {
+                    //         if (j % rows == 1) html2 += `<tr>`;
+                    //         html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
+                    //         html2 += `<div class="flip-card">`;
+                    //         html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                    //         html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                    //         html2 += `</div></td>`;
+                    //         if (j % rows == 0) html2 += `</tr>`;
+                    //         j++;
+                    //     });
+                    //     html2 += '</tbody></table><br/>';
+                    // }
                     if (regionalForm.length > 0) {
                         html2 += `<br/><div class='table_title'>REGIONAL FORM</div>\n
-                            <table id="regional_form_table"><tbody>`;
+                            <div id="regional_form_table">`;
                         regionalForm.forEach(pkm => {
-                            if (j % rows == 1) html2 += `<tr>`;
-                            html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
+                            html2 += `<div class="cell" style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;border: 1px solid ${color}">`;
                             html2 += `<div class="flip-card">`;
                             html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
-                            html2 += `</div></td>`;
-                            if (j % rows == 0) html2 += `</tr>`;
-                            j++;
+                            html2 += `</div></div>`;
                         });
-                        html2 += '</tbody></table><br/>';
+                        html2 += '</div><br/>';
                     }
                     //Mega Dex
-                    j = 1;
+                    // j = 1;
+                    // if (megaForm.length > 0) {
+                    //     html2 += `<br/><div class='table_title'>MEGA EVOLUTION</div>\n
+                    //         <table id="mega_form_table"><tbody>`;
+                    //     megaForm.forEach(pkm => {
+                    //         if (j % rows == 1) html2 += `<tr>`;
+                    //         html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
+                    //         html2 += `<div class="flip-card">`;
+                    //         html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                    //         html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                    //         html2 += `</div></td>`; if (j % rows == 0) html2 += `</tr>`;
+                    //         j++;
+                    //     });
+                    //     html2 += '</tbody></table><br/>';
+                    // }
                     if (megaForm.length > 0) {
                         html2 += `<br/><div class='table_title'>MEGA EVOLUTION</div>\n
-                            <table id="mega_form_table"><tbody>`;
+                            <div id="mega_form_table">`;
                         megaForm.forEach(pkm => {
-                            if (j % rows == 1) html2 += `<tr>`;
-                            html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
+                            html2 += `<div class="cell" style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;border: 1px solid ${color}">`;
                             html2 += `<div class="flip-card">`;
                             html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
-                            html2 += `</div></td>`; if (j % rows == 0) html2 += `</tr>`;
-                            j++;
+                            html2 += `</div></div>`;
                         });
-                        html2 += '</tbody></table><br/>';
+                        html2 += '</div><br/>';
                     }
                     //Gigamax Dex
-                    j = 1;
+                    // j = 1;
+                    // if (gigaForm.length > 0) {
+                    //     html2 += `<br/><div class='table_title'>GIGAMAX FORM</div>\n
+                    //         <table id="giga_form_table"><tbody>`;
+                    //     gigaForm.forEach(pkm => {
+                    //         if (j % rows == 1) html2 += `<tr>`;
+                    //         html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
+                    //         html2 += `<div class="flip-card">`;
+                    //         html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                    //         html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                    //         html2 += `</div></td>`; if (j % rows == 0) html2 += `</tr>`;
+                    //         j++;
+                    //     });
+                    //     html2 += '</tbody></table><br/>';
+                    // }
                     if (gigaForm.length > 0) {
                         html2 += `<br/><div class='table_title'>GIGAMAX FORM</div>\n
-                            <table id="giga_form_table"><tbody>`;
+                            <div id="giga_form_table">`;
                         gigaForm.forEach(pkm => {
-                            if (j % rows == 1) html2 += `<tr>`;
-                            html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
+                            html2 += `<div class="cell" style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;border: 1px solid ${color}">`;
                             html2 += `<div class="flip-card">`;
                             html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
-                            html2 += `</div></td>`; if (j % rows == 0) html2 += `</tr>`;
-                            j++;
+                            html2 += `</div></div>`;
                         });
-                        html2 += '</tbody></table><br/>';
+                        html2 += '</div><br/>';
                     }
                     //Other Forms
-                    j = 1;
+                    // j = 1;
+                    // if (altForm.length > 0) {
+                    //     html2 += `<div class='table_title'>OTHER FORMS</div>\n
+                    //         <table id="alt_form_table"><tbody>`;
+                    //     altForm.forEach(pkm => {
+                    //         if (j % rows == 1) html2 += `<tr>`;
+                    //         html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
+                    //         html2 += `<div class="flip-card">`;
+                    //         html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                    //         html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                    //         html2 += `</div></td>`; if (j % rows == 0) html2 += `</tr>`;
+                    //         j++;
+                    //     });
+                    //     html2 += '</tbody></table>';
+                    // }
                     if (altForm.length > 0) {
                         html2 += `<div class='table_title'>OTHER FORMS</div>\n
                             <table id="alt_form_table"><tbody>`;
                         altForm.forEach(pkm => {
-                            if (j % rows == 1) html2 += `<tr>`;
-                            html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
+                            html2 += `<div class="cell" style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;border: 1px solid ${color}">`;
                             html2 += `<div class="flip-card">`;
                             html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
-                            html2 += `</div></td>`; if (j % rows == 0) html2 += `</tr>`;
-                            j++;
+                            html2 += `</div></div>`;
                         });
-                        html2 += '</tbody></table>';
+                        html2 += '</div>';
                     }
 
                     $("#gen_table_div").html(html2);
@@ -385,34 +436,38 @@ $(document).ready(function () {
                         'border': `1px solid ${color}`,
                         'padding': '5px',//'2px 5px 2px 5px',
                         'color': `${color}`,
-                        'max-height': '180px',
-                        'max-width': '180px',
-                        'min-height': '180px',
-                        'min-width': '180px',
+                        // 'max-height': '180px',
+                        // 'max-width': '180px',
+                        // 'min-height': '180px',
+                        // 'min-width': '180px',
                     };
                     //Titles
                     $(".table_title").css({ 'color': color, 'font-size': '80px', 'width': '100%', 'text-align': 'center' });
                     //Table Gen
                     $("#gen_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
-                    $("#gen_table").find("th").css(cssObj);
-                    $("#gen_table").find("td").css(cssObj);
+                    $("#gen_table").find("div.cell").css(cssObj);
+                    // $("#gen_table").find("th").css(cssObj);
+                    // $("#gen_table").find("td").css(cssObj);
                     //Table Regional Form
-                    $("#regional_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px' });
-                    $("#regional_form_table").find("th").css(cssObj);
-                    $("#regional_form_table").find("td").css(cssObj);
+                    $("#regional_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
+                    $("#regional_form_table").find("div.cell").css(cssObj);
+                    // $("#regional_form_table").find("th").css(cssObj);
+                    // $("#regional_form_table").find("td").css(cssObj);
                     //Table Mega Form
-                    $("#mega_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px' });
-                    $("#mega_form_table").find("th").css(cssObj);
-                    $("#mega_form_table").find("td").css(cssObj);
+                    $("#mega_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
+                    $("#mega_form_table").find("div.cell").css(cssObj);
+                    // $("#mega_form_table").find("th").css(cssObj);
+                    // $("#mega_form_table").find("td").css(cssObj);
                     //Table Gigamax Form
-                    $("#giga_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px' });
-                    $("#giga_form_table").find("th").css(cssObj);
-                    $("#giga_form_table").find("td").css(cssObj);
+                    $("#giga_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
+                    $("#giga_form_table").find("div.cell").css(cssObj);
+                    // $("#giga_form_table").find("th").css(cssObj);
+                    // $("#giga_form_table").find("td").css(cssObj);
                     //Table Alt Form
-                    $("#alt_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px' });
-                    $("#alt_form_table").find("th").css(cssObj);
-                    $("#alt_form_table").find("td").css(cssObj);
-
+                    $("#alt_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
+                    $("#alt_form_table").find("div.cell").css(cssObj);
+                    // $("#alt_form_table").find("th").css(cssObj);
+                    // $("#alt_form_table").find("td").css(cssObj);
 
                 },
                 error: function fail(error) {
