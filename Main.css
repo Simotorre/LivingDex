@@ -125,15 +125,17 @@ button#gen_options img {
   padding: 10px;
   opacity: 1;
 } */
- #gen_table {
+#gen_table {
   display: grid;
-  gap: 6px;
+  gap: 4px;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
 }
 
 /* telefono */
 @media (max-width: 600px) {
   #gen_table {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
+    gap: 2px;
   }
 }
 
