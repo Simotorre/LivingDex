@@ -286,8 +286,8 @@ $(document).ready(function () {
                     html += '</tbody></table>';
 
                     //Main Dex Table
-                    // let rows = 9;
-                    // let j = 1;
+                    let rows = 9;
+                    let j = 1;
                     // let html2 = `<div class='table_title'>MAIN DEX</div>\n
                     //             <table id="gen_table"><tbody>`;
                     // genDex.forEach(pkm => {
