@@ -132,7 +132,8 @@ button#gen_options img {
 #alt_form_table {
   display: grid;
   gap: 4px;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 180px));
+  justify-content: center;
 }
 
 @media (max-width: 1000px) {
@@ -143,6 +144,7 @@ button#gen_options img {
   #giga_form_table,
   #alt_form_table {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+    justify-content: center;
     gap: 2px;
   }
 }

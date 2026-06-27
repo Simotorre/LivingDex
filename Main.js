@@ -420,7 +420,7 @@ $(document).ready(function () {
                     // }
                     if (altForm.length > 0) {
                         html2 += `<div class='table_title'>OTHER FORMS</div>\n
-                            <table id="alt_form_table"><tbody>`;
+                            <div id="alt_form_table">`;
                         altForm.forEach(pkm => {
                             html2 += `<div class="cell" style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;border: 1px solid ${color}">`;
                             html2 += `<div class="flip-card">`;
@@ -444,28 +444,33 @@ $(document).ready(function () {
                     //Titles
                     $(".table_title").css({ 'color': color, 'font-size': '80px', 'width': '100%', 'text-align': 'center' });
                     //Table Gen
-                    $("#gen_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
+                    $("#gen_table").css({ 'margin-left': 'auto', 'margin-right': 'auto' });
                     $("#gen_table").find("div.cell").css(cssObj);
+                    // $("#gen_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
                     // $("#gen_table").find("th").css(cssObj);
                     // $("#gen_table").find("td").css(cssObj);
                     //Table Regional Form
-                    $("#regional_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
+                    $("#regional_form_table").css({ 'margin-left': 'auto', 'margin-right': 'auto' });
                     $("#regional_form_table").find("div.cell").css(cssObj);
+                    // $("#regional_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
                     // $("#regional_form_table").find("th").css(cssObj);
                     // $("#regional_form_table").find("td").css(cssObj);
                     //Table Mega Form
-                    $("#mega_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
+                    $("#mega_form_table").css({ 'margin-left': 'auto', 'margin-right': 'auto' });
                     $("#mega_form_table").find("div.cell").css(cssObj);
+                    // $("#mega_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
                     // $("#mega_form_table").find("th").css(cssObj);
                     // $("#mega_form_table").find("td").css(cssObj);
                     //Table Gigamax Form
-                    $("#giga_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
+                    $("#giga_form_table").css({ 'margin-left': 'auto', 'margin-right': 'auto' });
                     $("#giga_form_table").find("div.cell").css(cssObj);
+                    // $("#giga_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
                     // $("#giga_form_table").find("th").css(cssObj);
                     // $("#giga_form_table").find("td").css(cssObj);
                     //Table Alt Form
-                    $("#alt_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
+                    $("#alt_form_table").css({ 'margin-left': 'auto', 'margin-right': 'auto' });
                     $("#alt_form_table").find("div.cell").css(cssObj);
+                    // $("#alt_form_table").css({ 'border-collapse': 'separate', 'border-spacing': '10px', 'margin-left': 'auto', 'margin-right': 'auto' });
                     // $("#alt_form_table").find("th").css(cssObj);
                     // $("#alt_form_table").find("td").css(cssObj);
 
