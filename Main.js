@@ -38,6 +38,8 @@ import { setObj } from './set.js';
 
 $(document).ready(function () {
 
+    updateButtonLabel();
+
     //SELEZIONA GEN
     // $("#select_gen_btn").on("click", function () {
     //     //apri il menù
@@ -75,12 +77,12 @@ $(document).ready(function () {
         if (mode === "dark") {
             backGroundColor = "#FFFFFF";
             color = "#000000";
-            this.textContent = "Dark Mode";
+            // this.textContent = "Dark Mode";
             this.setAttribute("mode", "light");
         } else {
             backGroundColor = "#000000";
             color = "#FFFFFF";
-            this.textContent = "Light Mode";
+            // this.textContent = "Light Mode";
             this.setAttribute("mode", "dark");
         }
         let body = document.getElementsByTagName("body");
@@ -106,6 +108,8 @@ $(document).ready(function () {
 
         //Functions CSS
         $("table.functions").find("td:first-child").css('color', color);
+
+        updateButtonLabel();
     });
 
     //ARTWORK - CARD IMAGE FLIP
@@ -496,6 +500,9 @@ $(document).ready(function () {
 
 });
 
+//CAMBIO BOTTONI CON SIZE
+$(window).on("resize", updateButtonLabel);
+
 /* function imageModal(i) {
     $('#change_img_fixed_btn').css('position', 'relative');
 
@@ -728,6 +735,21 @@ function imageModal(i) {
 function setText(id, value) {
     const el = document.getElementById(id);
     if (el) el.innerHTML = value || '&nbsp;';
+}
+
+function updateButtonLabel() {
+    let btn = document.getElementById("dark_light_btn");
+    const btnDark = $("#dark_light_btn");
+    const btnChange = $("#change_img_btn");
+
+    if (window.innerWidth < 600) {
+        btnDark.text("🌙");
+        btnChange.text("⇄");
+    } else {
+        let mode = btnDark.attr("mode");// btn.getAttribute("mode");
+        btn.textContent = mode === "dark" ? "Light Mode" : "Dark Mode";
+        btnChange.text("Change View");
+    }
 }
 
 window.imageModal = imageModal;
