@@ -70,7 +70,7 @@ button#change_img_fixed_btn {
   justify-content: center;
   align-items: center;
   z-index: 10000;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s;
 }
 
@@ -128,28 +128,13 @@ button#gen_options img {
 #gen_table {
   display: grid;
   gap: 4px;
-  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  max-width: 100%;
 }
 
-/* telefono */
 @media (max-width: 600px) {
   #gen_table {
-    grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
-    gap: 2px;
-  }
-}
-
-/* tablet */
-@media (min-width: 601px) and (max-width: 1000px) {
-  #gen_table {
-    grid-template-columns: repeat(7, 1fr);
-  }
-}
-
-/* desktop */
-@media (min-width: 1001px) {
-  #gen_table {
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
