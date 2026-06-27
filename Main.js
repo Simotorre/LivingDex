@@ -254,13 +254,14 @@ $(document).ready(function () {
                                         }
                                     }
 
+                                    let artworkPath = `./images/sprites/${linkNumber}.png`;
                                     let artworkLink = `https://www.serebii.net/pokemon/art/${linkNumber}.png`;
                                     let cardPath = `./images/cards/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
                                     let cardLink = `https://images.pokemontcg.io/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
 
                                     let img = artworkLink;
                                     let have = currentLine[h].trim() != '';
-                                    let dataObj = { lineId: currentLine[id], i, img, artworkLink, cardLink, cardPath, have };
+                                    let dataObj = { lineId: currentLine[id], i, img, artworkLink, artworkPath, cardLink, cardPath, have };
                                     if (bcArr[1] == 0) {
                                         genDex.push(dataObj);
                                     } else {
@@ -289,7 +290,7 @@ $(document).ready(function () {
                         if (j % rows == 1) html2 += `<tr>`;
                         html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
                         html2 += `<div class="flip-card">`;
-                        html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkLink}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                        html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                         html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                         html2 += `</div></td>`;
                         if (j % rows == 0) html2 += `</tr>`;
@@ -305,7 +306,7 @@ $(document).ready(function () {
                             if (j % rows == 1) html2 += `<tr>`;
                             html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
                             html2 += `<div class="flip-card">`;
-                            html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkLink}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                            html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `</div></td>`;
                             if (j % rows == 0) html2 += `</tr>`;
@@ -322,7 +323,7 @@ $(document).ready(function () {
                             if (j % rows == 1) html2 += `<tr>`;
                             html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
                             html2 += `<div class="flip-card">`;
-                            html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkLink}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                            html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `</div></td>`; if (j % rows == 0) html2 += `</tr>`;
                             j++;
@@ -338,7 +339,7 @@ $(document).ready(function () {
                             if (j % rows == 1) html2 += `<tr>`;
                             html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
                             html2 += `<div class="flip-card">`;
-                            html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkLink}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                            html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `</div></td>`; if (j % rows == 0) html2 += `</tr>`;
                             j++;
@@ -354,7 +355,7 @@ $(document).ready(function () {
                             if (j % rows == 1) html2 += `<tr>`;
                             html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
                             html2 += `<div class="flip-card">`;
-                            html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkLink}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                            html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
                             html2 += `</div></td>`; if (j % rows == 0) html2 += `</tr>`;
                             j++;

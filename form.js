@@ -8,7 +8,7 @@ const mega = { megaX, megaY, megaZ }
 const giga = [];
 
 //REGIONAL FORM
-const alolan = ['Alolan Rattata', 'Alolan Raticate', 'Alolan Raichu', 'Alolan Sandshrew', 'Alolan Sandslash', 'Alolan Vulpix', 'Alolan Raticate', 'Alolan Diglett', 'Alolan Dugtrio',
+const alolan = ['Alolan Rattata', 'Alolan Raticate', 'Alolan Raichu', 'Alolan Sandshrew', 'Alolan Sandslash', 'Alolan Vulpix', 'Alolan Ninetales', 'Alolan Raticate', 'Alolan Diglett', 'Alolan Dugtrio',
     'Alolan Meowth', 'Alolan Persian', 'Alolan Geodude', 'Alolan Graveler', 'Alolan Golem', 'Alolan Grimer', 'Alolan Muk', 'Alolan Exeggutor', 'Alolan Marowak'];
 const galarian = ['Galarian Meowth', 'Galarian Ponyta', 'Galarian Rapidash', 'Galarian Slowpoke', 'Galarian Slowbro', 'Galarian Farfetch\'d', 'Galarian Weezing', 'Galarian Mr. Mime',
     'Galarian Articuno', 'Galarian Zapdos', 'Galarian Moltres', 'Galarian Slowking', 'Galarian Corsola', 'Galarian Zigzagoon', 'Galarian Linoone', 'Galarian Darumaka', 'Galarian Darmanitan',
