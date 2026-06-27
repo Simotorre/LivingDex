@@ -442,7 +442,7 @@ $(document).ready(function () {
                         // 'min-width': '180px',
                     };
                     //Titles
-                    $(".table_title").css({ 'color': color, 'font-size': '80px', 'width': '100%', 'text-align': 'center' });
+                    $(".table_title").css({ 'color': color, 'font-size': 'clamp(28px, 5vw, 80px)', 'width': '100%', 'text-align': 'center' });
                     //Table Gen
                     $("#gen_table").css({ 'margin-left': 'auto', 'margin-right': 'auto' });
                     $("#gen_table").find("div.cell").css(cssObj);
