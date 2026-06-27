@@ -7,6 +7,8 @@ body {
   background-color: black;
   opacity: 1;
   padding: 10px;
+  min-width: 525px;
+  overflow-x: auto;
 }
 
 h1.btn_bar {
@@ -91,12 +93,12 @@ button#gen_options img {
   z-index: 1001;
 }
 
-#gen_options {
+/* #gen_options {
   display: none;
   position: absolute;
-  /* o fixed se vuoi sempre in cima allo schermo */
+  /* o fixed se vuoi sempre in cima allo schermo 
   top: 80px;
-  /* distanza dal top (puoi regolare per metterlo sotto al bottone) */
+  /* distanza dal top (puoi regolare per metterlo sotto al bottone) 
   left: 47px;
   width: 1810px;
   background: #000000;
@@ -108,8 +110,8 @@ button#gen_options img {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   overflow-y: auto;
   z-index: 1000;
-}
-
+} 
+  
 .gen {
   width: 10%;
   height: 10%;
@@ -119,7 +121,88 @@ button#gen_options img {
 .gen:hover {
   opacity: 0.7;
 }
+  */
 
+#gen_options {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: min(95vw, 100%);
+
+  background: #000;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 12px;
+
+  z-index: 1000;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  opacity: 0;
+  transform: translateX(-50%) translateY(-10px);
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+#gen_options.show {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 10px;
+
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}
+
+.gen {
+  width: 100%;
+  height: auto;
+
+  display: block;
+  margin: auto;
+
+  cursor: pointer;
+
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.gen:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.gen-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  #gen_options.show {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  #gen_options.show {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  #gen_options.show {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.table_title {
+  font-size: clamp(28px, 5vw, 80px);
+  width: 100%;
+  text-align: center;
+}
 
 /* #gen_table_div {
   padding: 10px;
