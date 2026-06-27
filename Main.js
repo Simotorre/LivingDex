@@ -486,7 +486,7 @@ $(document).ready(function () {
 
 });
 
-function imageModal(i) {
+/* function imageModal(i) {
     $('#change_img_fixed_btn').css('position', 'relative');
 
     const stats = ['hp', 'atk', 'def', 'atksp', 'defsp', 'spe'];
@@ -597,6 +597,114 @@ function imageModal(i) {
         modal.style.display = "none";
         $('#change_img_fixed_btn').css('position', 'fixed');
     }
+} */
+
+function imageModal(i) {
+    $('#change_img_fixed_btn').css('position', 'relative');
+
+    const currentLine = csvData[i].trim().split(';');
+
+    const stats = ['hp', 'atk', 'def', 'atksp', 'defsp', 'spe'];
+    const statsRow = [hp, atk, def, atksp, defsp, spe];
+    const statsEvRow = [evhp, evatk, evdef, evatksp, evdefsp, evspe];
+    const colors = ['#58E810', '#EACA2F', '#E5721D', '#26BAE0', '#4C6CD4', '#D425CE'];
+
+    const modal = document.getElementById("modal");
+
+    // -------------------------
+    // HEADER
+    // -------------------------
+    document.getElementById("vg_name").textContent = currentLine[nm];
+    document.getElementById("vg_num").textContent = `No. ${currentLine[n]}`;
+
+    // -------------------------
+    // ARTWORK + CARD
+    // -------------------------
+    document.getElementById("artwork_modal_img").src =
+        document.getElementById(currentLine[id]).src;
+
+    const card = document.getElementById("card_modal_img");
+    card.src = `./images/cards/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
+    card.onerror = function () {
+        this.src = `https://images.pokemontcg.io/${setObj[currentLine[set]]}/${currentLine[cn]}_hires.png`;
+        this.onerror = null;
+    };
+
+    document.getElementById("img_set_logo").src =
+        `./images/set-logos/${currentLine[set].replaceAll(' ', '_')}_Logo.png`;
+
+    // -------------------------
+    // TYPES
+    // -------------------------
+    document.getElementById("type1").innerHTML =
+        `<img src="./images/types/${currentLine[t1]}.png">`;
+
+    document.getElementById("type2").innerHTML =
+        currentLine[t2]
+            ? `<img src="./images/types/${currentLine[t2]}.png">`
+            : '';
+
+    // -------------------------
+    // INFO GRID (clean mapping)
+    // -------------------------
+    setText("height", `${currentLine[hg]} m`);
+    setText("weight", `${currentLine[wg]} kg`);
+
+    setText("first_ability", currentLine[ab1]);
+    setText("second_ability", currentLine[ab2]);
+    setText("hidden_ability", currentLine[abh]);
+
+    setText("first_egg_group", currentLine[eg1]);
+    setText("second_egg_group", currentLine[eg2]);
+    setText("egg_cycle", currentLine[egc]);
+
+    setText("catch_rate", currentLine[cr]);
+    setText("base_exp", currentLine[bxp]);
+    setText("total_exp", currentLine[txp]);
+
+    // -------------------------
+    // STATS
+    // -------------------------
+    let totalEv = 0;
+
+    stats.forEach((stat, idx) => {
+        const row = document.getElementById(`${stat}_row`);
+
+        const value = Number(currentLine[statsRow[idx]]);
+        const ev = Number(currentLine[statsEvRow[idx]]);
+
+        row.querySelector(".stat-value").textContent = value;
+        row.querySelector(".stat-ev").textContent = ev;
+
+        const bar = row.querySelector(".stat-bar");
+        bar.style.width = `${(value / 255) * 100}%`;
+        bar.style.backgroundColor = colors[idx];
+
+        totalEv += ev;
+    });
+
+    const totRow = document.getElementById("tot_row");
+    const total = Number(currentLine[tot]);
+
+    totRow.querySelector(".stat-value").textContent = total;
+    totRow.querySelector(".stat-ev").textContent = totalEv;
+    totRow.querySelector(".stat-bar").style.width = `${(total / 1530) * 100}%`;
+
+    // -------------------------
+    // SHOW MODAL
+    // -------------------------
+    modal.style.display = "flex";
+
+    document.querySelector(".close").onclick = () => {
+        modal.style.display = "none";
+        $('#change_img_fixed_btn').css('position', 'fixed');
+    };
+}
+
+// helper
+function setText(id, value) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = value;
 }
 
 window.imageModal = imageModal;
