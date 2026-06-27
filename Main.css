@@ -239,6 +239,7 @@ button#gen_options img {
   border-radius: 12px;
   padding: 20px;
   color: black;
+  width: 100%;
 }
 
 /* ========================= */
@@ -318,6 +319,30 @@ button#gen_options img {
 .info-value {
   font-size: 18px;
   font-weight: bold;
+}
+
+.type-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.type-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.type-item img {
+  width: 45px;
+  height: auto;
+}
+
+/* type2 hidden di default */
+#type2 {
+  display: none;
 }
 
 /* ========================= */

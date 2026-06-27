@@ -636,13 +636,25 @@ function imageModal(i) {
     // -------------------------
     // TYPES
     // -------------------------
-    document.getElementById("type1").innerHTML =
-        `<img src="./images/types/${currentLine[t1]}.png">`;
+    // document.getElementById("type1").innerHTML =
+    //     `<img src="./images/types/${currentLine[t1]}.png">`;
 
-    document.getElementById("type2").innerHTML =
-        currentLine[t2]
-            ? `<img src="./images/types/${currentLine[t2]}.png">`
-            : '';
+    // document.getElementById("type2").innerHTML =
+    //     currentLine[t2]
+    //         ? `<img src="./images/types/${currentLine[t2]}.png">`
+    //         : '';
+    let type1 = document.getElementById("type1");
+    let type2 = document.getElementById("type2");
+
+    type1.innerHTML = `<img class="img_types" src="./images/types/${currentLine[t1]}.png">`;
+
+    if (currentLine[t2]) {
+        type2.innerHTML = `<img class="img_types" src="./images/types/${currentLine[t2]}.png">`;
+        type2.style.display = "block";
+    } else {
+        type2.innerHTML = "";
+        type2.style.display = "none";
+    }
 
     // -------------------------
     // INFO GRID (clean mapping)
@@ -688,7 +700,8 @@ function imageModal(i) {
 
     totRow.querySelector(".stat-value").textContent = total;
     totRow.querySelector(".stat-ev").textContent = totalEv;
-    totRow.querySelector(".stat-bar").style.width = `${(total / 1530) * 100}%`;
+    totRow.querySelector(".stat-bar").style.width = `${(total / 1530) * 100}%`; 
+    totRow.querySelector(".stat-bar").style.backgroundColor = '#505050';
 
     // -------------------------
     // SHOW MODAL
@@ -704,7 +717,7 @@ function imageModal(i) {
 // helper
 function setText(id, value) {
     const el = document.getElementById(id);
-    if (el) el.textContent = value;
+    if (el) el.innerHTML = value || '&nbsp;';
 }
 
 window.imageModal = imageModal;
