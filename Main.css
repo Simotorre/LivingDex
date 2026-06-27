@@ -129,22 +129,30 @@ button#gen_options img {
   display: grid;
   gap: 4px;
   grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
-  max-width: 100%;
 }
 
 @media (max-width: 600px) {
   #gen_table {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 2px;
   }
 }
+
 
 .image:hover {
   opacity: 0.7;
 }
 
-.flip-card {
+/* .flip-card {
   width: 180px;
   height: 180px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+} */
+.flip-card {
+  width: 100%;
+  aspect-ratio: 1 / 1;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.8s;
@@ -162,6 +170,7 @@ button#gen_options img {
   backface-visibility: hidden;
   object-fit: cover;
   border-radius: 10px;
+  inset: 0; //new
 }
 
 .back {
