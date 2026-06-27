@@ -52,6 +52,7 @@ const otherForms = {
     'Giratina Origin Form': '-o',
     'Shaymin Sky Form': '-s',
     //5a
+    'Unfezant (Female)': '-f',
     'Basculin Blue Stripe': '-b',
     'Darmanitan Zen-Mode': '-z',
     'Deerling Summer Form': '-s',

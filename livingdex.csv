@@ -297,12 +297,12 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 201;201_20;Unown;Unown T;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Mysterious Treasures;67;
 201;201_21;Unown;Unown U;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Legends Awakened;78;x
 201;201_22;Unown;Unown V;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Legends Awakened;79;x
-201;201_18;Unown;Unown W;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Legends Awakened;80;x
-201;201_19;Unown;Unown X;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Secret Wonders;71;x
-201;201_20;Unown;Unown Y;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Legends Awakened;81;x
-201;201_21;Unown;Unown Z;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Secret Wonders;72;
-201;201_22;Unown;Unown ?;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Legends Awakened;82;
-201;201_23;Unown;Unown !;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Legends Awakened;42;
+201;201_23;Unown;Unown W;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Legends Awakened;80;x
+201;201_24;Unown;Unown X;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Secret Wonders;71;x
+201;201_25;Unown;Unown Y;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Legends Awakened;81;x
+201;201_26;Unown;Unown Z;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Secret Wonders;72;
+201;201_27;Unown;Unown ?;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Legends Awakened;82;
+201;201_28;Unown;Unown !;2;0.5;5;Psychic;;Levitate;;;Black;0;0;100;40;Undiscovered;;225;118;1000000;Ordinary;;;48;72;48;72;48;48;336;0;1;0;1;0;0;DP Legends Awakened;42;
 202;202_0;Wobbuffet;Wobbuffet;2;1.3;28.5;Psychic;;Shadow Tag;;Telepathy;Blue;50;50;0;20;Amorphous;;45;142;1000000;Ordinary;;;190;33;58;33;58;33;405;2;0;0;0;0;0;HeartGold SoulSilver;13;x
 203;203_0;Girafarig;Girafarig;2;1.5;41.5;Normal;Psychic;Inner Focus;Early Bird;Sap Sipper;Yellow;50;50;0;20;Ground;;60;159;1000000;Ordinary;;;70;80;65;90;65;85;455;0;0;0;2;0;0;HeartGold SoulSilver;64;x
 204;204_0;Pineco;Pineco;2;0.6;7.2;Bug;;Sturdy;;Overcoat;Gray;50;50;0;20;Bug;;190;58;1000000;Ordinary;;;50;65;90;35;35;15;290;0;0;1;0;0;0;HS Undaunted;62;x
@@ -663,14 +663,23 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 492;492_0;Shaymin;Shaymin Land Form;4;0.2;2.1;Grass;;Natural Cure;;;Green;0;0;100;120;Undiscovered;;45;270;1059860;Mythical;;;100;100;100;100;100;100;600;3;0;0;0;0;0;Platinum;14;x
 492;492_1;Shaymin;Shaymin Sky Form;4;0.4;5.2;Grass;Flying;Serene Grace;;;Green;0;0;100;120;Undiscovered;;45;270;1059860;Mythical;;;100;103;75;120;75;127;600;0;0;0;0;0;3;Platinum;15;x
 493;493_0;Arceus;Arceus;4;3.2;320;Normal;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR5;x
-493;493_1;Arceus;Arceus;4;3.2;320;Dark;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR1;x
-493;493_2;Arceus;Arceus;4;3.2;320;Grass;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR2;x
-493;493_3;Arceus;Arceus;4;3.2;320;Fire;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR3;x
-493;493_4;Arceus;Arceus;4;3.2;320;Water;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR4;
-493;493_5;Arceus;Arceus;4;3.2;320;Electric;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR6;x
-493;493_6;Arceus;Arceus;4;3.2;320;Psychic;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR7;x
-493;493_7;Arceus;Arceus;4;3.2;320;Fighting;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR8;x
-493;493_8;Arceus;Arceus;4;3.2;320;Steel;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR9;x
+493;493_1;Arceus;Arceus Bug;4;3.2;320;Bug;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR2;x
+493;493_2;Arceus;Arceus Dark;4;3.2;320;Dark;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR1;x
+493;493_3;Arceus;Arceus Dragon;4;3.2;320;Dragon;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR5;x
+493;493_4;Arceus;Arceus Electric;4;3.2;320;Electric;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR6;x
+493;493_5;Arceus;Arceus Fairy;4;3.2;320;Fairy;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR7;x
+493;493_6;Arceus;Arceus Fighting;4;3.2;320;Fighting;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR8;x
+493;493_7;Arceus;Arceus Fire;4;3.2;320;Fire;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR3;x
+493;493_8;Arceus;Arceus Flying;4;3.2;320;Flying;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR5;x
+493;493_9;Arceus;Arceus Ghost;4;3.2;320;Ghost;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR7;x
+493;493_10;Arceus;Arceus Grass;4;3.2;320;Grass;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR2;x
+493;493_11;Arceus;Arceus Ground;4;3.2;320;Ground;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR8;x
+493;493_12;Arceus;Arceus Ice;4;3.2;320;Ice;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR4;x
+493;493_13;Arceus;Arceus Poison;4;3.2;320;Poison;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR7;x
+493;493_14;Arceus;Arceus Psychic;4;3.2;320;Psychic;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR7;x
+493;493_15;Arceus;Arceus Rock;4;3.2;320;Rock;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR8;x
+493;493_16;Arceus;Arceus Steel;4;3.2;320;Steel;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR9;x
+493;493_17;Arceus;Arceus Water;4;3.2;320;Water;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR4;x
 494;494_0;Victini;Victini;5;0.4;4;Psychic;Fire;Victory Star;;;Yellow;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;;;100;100;100;100;100;100;600;3;0;0;0;0;0;BW Noble Victories;14;x
 495;495_0;Snivy;Snivy;5;0.6;8.1;Grass;;Overgrow;;Contrary;Green;87.5;12.5;0;20;Ground;Grass;45;62;1059860;Ordinary;;;45;45;55;45;55;63;308;0;0;0;0;0;1;BW Black Star Promos;BW01;x
 496;496_0;Servine;Servine;5;0.8;16;Grass;;Overgrow;;Contrary;Green;87.5;12.5;0;20;Ground;Grass;45;145;1059860;Ordinary;;;60;60;75;60;75;83;413;0;0;0;0;0;2;Black & White;4;x
@@ -901,7 +910,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 666;666_16;Vivillon;Vivillon Ocean Pattern;6;1.2;17;Bug;Flying;Shield Dust;Compound Eyes;Friend Guard;White;50;50;0;15;Bug;;45;206;1000000;Ordinary;;;80;52;50;90;50;89;411;1;0;0;1;0;1;;;
 666;666_17;Vivillon;Vivillon Jungle Pattern;6;1.2;17;Bug;Flying;Shield Dust;Compound Eyes;Friend Guard;White;50;50;0;15;Bug;;45;206;1000000;Ordinary;;;80;52;50;90;50;89;411;1;0;0;1;0;1;;;
 666;666_18;Vivillon;Vivillon Fancy Pattern;6;1.2;17;Bug;Flying;Shield Dust;Compound Eyes;Friend Guard;White;50;50;0;15;Bug;;45;206;1000000;Ordinary;;;80;52;50;90;50;89;411;1;0;0;1;0;1;;;
-666;666_19;Vivillon;Vivillon Poke Ball Pattern;6;1.2;17;Bug;Flying;Shield Dust;Compound Eyes;Friend Guard;White;50;50;0;15;Bug;;45;206;1000000;Ordinary;;;80;52;50;90;50;89;411;1;0;0;1;0;1;;;
+666;666_19;Vivillon;Vivillon Poké Ball Pattern;6;1.2;17;Bug;Flying;Shield Dust;Compound Eyes;Friend Guard;White;50;50;0;15;Bug;;45;206;1000000;Ordinary;;;80;52;50;90;50;89;411;1;0;0;1;0;1;;;
 667;667_0;Litleo;Litleo;6;0.6;13.5;Fire;Normal;Rivalry;Unnerve;Moxie;Brown;12.5;87.5;0;20;Ground;;220;74;1059860;Ordinary;;;62;50;58;73;54;72;369;0;0;0;1;0;0;XY Flashfire;18;x
 668;668_0;Pyroar;Pyroar;6;1.5;81.5;Fire;Normal;Rivalry;Unnerve;Moxie;Brown;12.5;87.5;0;20;Ground;;65;177;1059860;Ordinary;;;86;68;72;109;66;106;507;0;0;0;2;0;0;XY Flashfire;20;
 668;668_1;Pyroar;Mega Pyroar;6;1.5;90.5;Fire;Normal;;;;;87.5;12.5;0;;;;;;;;Mega;;86;88;92;129;86;126;;;;;;;;;;
@@ -1103,7 +1112,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 807;807_1;Zeraora;Mega Zeraora;7;1.5;44.5;Electric;;Volt Absorb;;;Yellow;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;Mega;;88;112;75;102;80;143;600;0;0;0;0;0;3;SM Unbroken Bonds;60;x
 808;808_0;Meltan;Meltan;7;0.2;8;Steel;;Magnet Pull;;;Gray;0;0;100;120;Undiscovered;;3;150;1250000;Mythical;;;46;65;65;55;35;34;300;0;1;0;0;0;0;SM Unbroken Bonds;128;x
 809;809_0;Melmetal;Melmetal;7;2.5;800;Steel;;Iron Fist;;;Gray;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;;;135;143;143;80;65;34;600;0;3;0;0;0;0;SM Unbroken Bonds;129;x
-809;809_1;Melmetal;Gigamax Melmetal;7;;;;;;;;;;;;;;;;;;;Gigamax;;;;;;;;;;;;;;;Pokémon GO;48;x
+809;809_1;Melmetal;Gigamax Melmetal;7;;;;;;;;;;;;;;;;;;;Gigamax;;;;;;;;;;;;;;;Pokï¿½mon GO;48;x
 810;810_0;Grookey;Grookey;8;0.3;5;Grass;;Overgrow;;Grassy Surge;Green;87.5;12.5;0;20;Ground;Grass;45;62;1059860;Ordinary;;;50;65;50;40;40;65;310;0;1;0;0;0;0;Sword & Shield;10;x
 811;811_0;Thwackey;Thwackey;8;0.7;14;Grass;;Overgrow;;Grassy Surge;Green;87.5;12.5;0;20;Ground;Grass;45;147;1059860;Ordinary;;;70;85;70;55;60;80;420;0;2;0;0;0;0;Sword & Shield;12;x
 812;812_0;Rillaboom;Rillaboom;8;2.1;90;Grass;;Overgrow;;Grassy Surge;Green;87.5;12.5;0;20;Ground;Grass;45;265;1059860;Ordinary;;;100;125;90;60;70;85;530;0;3;0;0;0;0;Sword & Shield;13;x
