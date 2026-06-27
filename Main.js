@@ -286,21 +286,34 @@ $(document).ready(function () {
                     html += '</tbody></table>';
 
                     //Main Dex Table
-                    let rows = 5;
-                    let j = 1;
-                    let html2 = `<div class='table_title'>MAIN DEX</div>\n
-                                <table id="gen_table"><tbody>`;
+                    // let rows = 9;
+                    // let j = 1;
+                    // let html2 = `<div class='table_title'>MAIN DEX</div>\n
+                    //             <table id="gen_table"><tbody>`;
+                    // genDex.forEach(pkm => {
+                    //     if (j % rows == 1) html2 += `<tr>`;
+                    //     html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
+                    //     html2 += `<div class="flip-card">`;
+                    //     html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                    //     html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
+                    //     html2 += `</div></td>`;
+                    //     if (j % rows == 0) html2 += `</tr>`;
+                    //     j++;
+                    // });
+                    // html2 += '</tbody></table><br/>';
+                    let html2 = `<div class='table_title'>MAIN DEX</div>
+                                <div id="gen_table">`;
                     genDex.forEach(pkm => {
-                        if (j % rows == 1) html2 += `<tr>`;
-                        html2 += `<td style="${pkm.have ? 'background-color: rgba(100, 255, 100, 0.2)' : ''};perspective: 1000px;">`;
-                        html2 += `<div class="flip-card">`;
-                        html2 += `<img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
-                        html2 += `<img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">`;
-                        html2 += `</div></td>`;
-                        if (j % rows == 0) html2 += `</tr>`;
-                        j++;
+                        html2 += `
+                            <div class="cell ${pkm.have ? 'have' : ''}" style="perspective: 1000px;">
+                                <div class="flip-card">
+                                <img class="image front" id="${pkm.lineId}" src="${pkm.artworkPath}" width="100%" height="100%" onclick="imageModal('${pkm.i}')">
+                                <img class="image back" id="${pkm.lineId}" src="${pkm.cardPath}" onerror="this.onerror=null; this.src='${pkm.cardLink}'" width="100%" height="100%" onclick="imageModal('${pkm.i}')">
+                                </div>
+                            </div>
+                            `;
                     });
-                    html2 += '</tbody></table><br/>';
+                    html2 += `</div><br/>`;
                     //Regional Form Dex Table
                     j = 1;
                     if (regionalForm.length > 0) {

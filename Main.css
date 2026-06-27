@@ -121,9 +121,34 @@ button#gen_options img {
 }
 
 
-#gen_table_div {
+/* #gen_table_div {
   padding: 10px;
   opacity: 1;
+} */
+ #gen_table {
+  display: grid;
+  gap: 6px;
+}
+
+/* telefono */
+@media (max-width: 600px) {
+  #gen_table {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* tablet */
+@media (min-width: 601px) and (max-width: 1000px) {
+  #gen_table {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+/* desktop */
+@media (min-width: 1001px) {
+  #gen_table {
+    grid-template-columns: repeat(9, 1fr);
+  }
 }
 
 .image:hover {
