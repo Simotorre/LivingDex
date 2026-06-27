@@ -17,6 +17,6 @@ If you are a rights holder and have concerns regarding any content in this repos
 The images used in this project were sourced from:\
 https://www.serebii.net \
 https://pokemontcg.io \
-https://bulbapedia.bulbagarden.net/wiki/Main_Page \
+https://bulbapedia.bulbagarden.net/wiki/Main_Page
 
 This project was created for personal and educational purposes only.
