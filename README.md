@@ -14,8 +14,9 @@ This repository is intended for personal and educational purposes only. No copyr
 If you are a rights holder and have concerns regarding any content in this repository, please open an issue or contact me and the relevant content will be removed.
 
 ## Credits
-The images used in this project were sourced from:
-https://www.serebii.net
-https://pokemontcg.io
+The images used in this project were sourced from:\
+https://www.serebii.net\
+https://pokemontcg.io\
+https://bulbapedia.bulbagarden.net/wiki/Main_Page\
 
 This project was created for personal and educational purposes only.
