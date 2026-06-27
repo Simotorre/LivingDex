@@ -20,6 +20,13 @@ const regional = { alolan, galarian, hisuian, paldean }
 
 //OTHER FORMS
 const otherForms = {
+    //2a
+    'Unown': [0, //l'index parte da zero ma ho bisogno che parta da 1
+        '-a', '-b', '-c', '-d', '-e', '-f', '-g',
+        '-h', '-i', '-j', '-k', '-l', '-m', '-n',
+        '-o', '-p', '-q', '-r', '-s', '-t', '-u',
+        '-v', '-w', '-x', '-y', '-z', '-qm', '-em'
+    ],
     //3a
     'Castform Sunny Form': '-s',
     'Castform Rainy Form': '-r',

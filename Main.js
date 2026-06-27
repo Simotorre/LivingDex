@@ -250,7 +250,11 @@ $(document).ready(function () {
                                                 }
                                             }
                                         } else {
-                                            linkNumber += formObj[currentLine[cnm].trim()];
+                                            if (currentLine[cnm].trim().includes('Unown')) {
+                                                linkNumber += formObj['Unown'][bcArr[1]];
+                                            } else {
+                                                linkNumber += formObj[currentLine[cnm].trim()];
+                                            }
                                         }
                                     }
 
