@@ -154,6 +154,9 @@ const setObj = {
     'Mega Evolution': 'me1',
     'ME Phantasmal Flames': 'me2',
     'ME Ascended Heroes': 'me2pt5',
+    'ME Perfect Order': 'me3',
+    'ME Chaos Rising': 'me4',
+    'ME Pitch Black': 'me5',
 
 
     // Trainer Kit 
