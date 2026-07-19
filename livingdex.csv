@@ -53,7 +53,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 34;34_0;Nidoking;Nidoking;1;1.4;62;Poison;Ground;Poison Point;Rivalry;Sheer Force;Purple;100;0;0;20;Monster;Ground;45;253;1059860;Ordinary;;;81;102;77;85;75;85;505;0;3;0;0;0;0;XY Evolutions;45;x
 35;35_0;Clefairy;Clefairy;1;0.6;7.5;Fairy;;Cute Charm;Magic Guard;Friend Guard;Pink;25;75;0;10;Fairy;;150;113;800000;Ordinary;;;70;45;48;60;65;35;323;2;0;0;0;0;0;XY Evolutions;63;x
 36;36_0;Clefable;Clefable;1;1.3;40;Fairy;;Cute Charm;Magic Guard;Unaware;Pink;25;75;0;10;Fairy;;25;242;800000;Ordinary;;;95;70;73;95;90;60;483;3;0;0;0;0;0;Jungle;17;
-36;36_1;Clefable;Mega Clefable;1;1.7;42.3;Fairy;Flying;;;;Pink;25;75;0;10;Fairy;;;;;Ordinary;Mega;;95;80;93;135;110;70;583;3;0;0;0;0;0;;;x
+36;36_1;Clefable;Mega Clefable;1;1.7;42.3;Fairy;Flying;;;;Pink;25;75;0;10;Fairy;;;;;Ordinary;Mega;;95;80;93;135;110;70;583;3;0;0;0;0;0;ME Perfect Order;31;x
 37;37_0;Vulpix;Vulpix;1;0.6;9.9;Fire;;Flash Fire;;Drought;Brown;25;75;0;20;Ground;;190;60;1000000;Ordinary;;;38;41;40;50;65;65;299;0;0;0;0;0;1;XY Evolutions;14;x
 37;37_1;Vulpix;Alolan Vulpix;7;0.6;9.9;Ice;;Snow Cloak;;Snow Warning;White;25;75;0;20;Ground;;190;60;1000000;Ordinary;;Alolan;38;41;40;50;65;65;299;0;0;0;0;0;1;SM Guardian Rising;21;x
 38;38_0;Ninetales;Ninetales;1;1.1;19.9;Fire;;Flash Fire;;Drought;Yellow;25;75;0;20;Ground;;75;177;1000000;Ordinary;;;73;76;75;81;100;100;505;0;0;0;0;1;1;XY Evolutions;15;x
@@ -118,7 +118,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 79;79_1;Slowpoke;Galarian Slowpoke;8;1.2;36;Psychic;;Gluttony;Own Tempo;Regenerator;Pink;50;50;0;20;Monster;Water1;190;63;1000000;Ordinary;;Galarian;90;65;65;40;40;15;315;1;0;0;0;0;0;SWSH Battle Styles;54;x
 80;80_0;Slowbro;Slowbro;1;1.6;78.5;Water;Psychic;Oblivious;Own Tempo;Regenerator;Pink;50;50;0;20;Monster;Water1;75;172;1000000;Ordinary;;;95;75;110;100;80;30;490;0;0;2;0;0;0;Fossil;43;x
 80;80_1;Slowbro;Galarian Slowbro;8;1.6;70.5;Poison;Psychic;Quick Draw;Own Tempo;Regenerator;Pink;50;50;0;20;Monster;Water1;75;172;1000000;Ordinary;;Galarian;95;100;95;100;70;30;490;0;2;0;0;0;0;SWSH Battle Styles;92;x
-80;80_2;Slowbro;Mega Slowbro;1;2;120;Water;Psychic;Shell Armor;;;Pink;50;50;0;20;Monster;Water1;75;207;1000000;Ordinary;Mega;;95;75;180;130;80;30;590;0;0;2;0;0;0;XY Evolutions;27;x
+80;80_2;Slowbro;Mega Slowbro;1;2;120;Water;Psychic;Shell Armor;;;Pink;50;50;0;20;Monster;Water1;75;207;1000000;Ordinary;Mega;;95;75;180;130;80;30;590;0;0;2;0;0;0;ME Pitch Black;31;x
 81;81_0;Magnemite;Magnemite;1;0.3;6;Electric;Steel;Magnet Pull;Sturdy;Analytic;Gray;0;0;100;20;Mineral;;190;65;1000000;Ordinary;;;25;35;70;95;55;45;325;0;0;0;1;0;0;XY Evolutions;37;x
 82;82_0;Magneton;Magneton;1;1;60;Electric;Steel;Magnet Pull;Sturdy;Analytic;Gray;0;0;100;20;Mineral;;60;163;1000000;Ordinary;;;50;60;95;120;70;70;465;0;0;0;2;0;0;XY Evolutions;38;x
 83;83_0;Farfetch'd;Farfetch'd;1;0.8;15;Normal;Flying;Keen Eye;Inner Focus;Defiant;Brown;50;50;0;20;Flying;Ground;45;132;1000000;Ordinary;;;52;90;55;58;62;60;377;0;1;0;0;0;0;Base Set;27;x
@@ -172,7 +172,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 119;119_0;Seaking;Seaking;1;1.3;39;Water;;Swift Swim;Water Veil;Lightning Rod;Red;50;50;0;20;Water2;;60;158;1000000;Ordinary;;;80;92;65;65;80;68;450;0;2;0;0;0;0;Jungle;46;x
 120;120_0;Staryu;Staryu;1;0.8;34.5;Water;;Illuminate;Natural Cure;Analytic;Brown;0;0;100;20;Water3;;225;68;1250000;Ordinary;;;30;45;55;70;55;85;340;0;0;0;0;0;1;Base Set;65;x
 121;121_0;Starmie;Starmie;1;1.1;80;Water;Psychic;Illuminate;Natural Cure;Analytic;Purple;0;0;100;20;Water3;;60;182;1250000;Ordinary;;;60;75;85;100;85;115;520;0;0;0;0;0;2;Base Set;64;
-121;121_1;Starmie;Mega Starmie;1;2.3;80;Water;Psychic;;;;Purple;0;0;100;20;Water3;;60;182;1250000;Ordinary;Mega;;60;140;105;130;105;120;660;0;0;0;0;0;2;;;x
+121;121_1;Starmie;Mega Starmie;1;2.3;80;Water;Psychic;;;;Purple;0;0;100;20;Water3;;60;182;1250000;Ordinary;Mega;;60;140;105;130;105;120;660;0;0;0;0;0;2;ME Perfect Order;21;x
 122;122_0;Mr. Mime;Mr. Mime;1;1.3;54.5;Psychic;Fairy;Soundproof;Filter;Technician;Pink;50;50;0;25;Human-Like;;45;161;1000000;Ordinary;;;40;45;65;100;120;90;460;0;0;0;0;2;0;Jungle;22;x
 122;122_1;Mr. Mime;Galarian Mr. Mime;8;1.4;56.8;Ice;Psychic;Vital Spirit;Screen Cleaner;Ice Body;White;50;50;0;25;Human-Like;;45;161;1000000;Ordinary;;Galarian;50;65;65;90;90;100;460;0;0;0;0;0;2;SWSH Rebel Clash;37;x
 123;123_0;Scyther;Scyther;1;1.5;56;Bug;Flying;Swarm;Technician;Steadfast;Green;50;50;0;25;Bug;;45;100;1000000;Ordinary;;;70;110;80;55;80;105;500;0;1;0;0;0;0;Jungle;26;
@@ -214,7 +214,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 147;147_0;Dratini;Dratini;1;1.8;3.3;Dragon;;Shed Skin;;Marvel Scale;Blue;50;50;0;40;Water1;Dragon;45;60;1250000;Ordinary;;;41;64;45;50;50;50;300;0;1;0;0;0;0;Base Set;26;x
 148;148_0;Dragonair;Dragonair;1;4;16.5;Dragon;;Shed Skin;;Marvel Scale;Blue;50;50;0;40;Water1;Dragon;45;147;1250000;Ordinary;;;61;84;65;70;70;70;420;0;2;0;0;0;0;Base Set;18;
 149;149_0;Dragonite;Dragonite;1;2.2;210;Dragon;Flying;Inner Focus;;Multiscale;Brown;50;50;0;40;Water1;Dragon;45;300;1250000;Ordinary;;;91;134;95;100;100;80;600;0;3;0;0;0;0;Fossil;19;
-149;149_1;Dragonite;Mega Dragonite;1;2.2;290;Dragon;Flying;;;;Brown;50;50;0;40;Water1;Dragon;45;300;1250000;Ordinary;Mega;;91;124;115;145;125;100;700;0;3;0;0;0;0;ME Ascended Heroes;;x
+149;149_1;Dragonite;Mega Dragonite;1;2.2;290;Dragon;Flying;;;;Brown;50;50;0;40;Water1;Dragon;45;300;1250000;Ordinary;Mega;;91;124;115;145;125;100;700;0;3;0;0;0;0;ME Ascended Heroes;152;x
 150;150_0;Mewtwo;Mewtwo;1;2;122;Psychic;;Pressure;;Unnerve;Purple;0;0;100;120;Undiscovered;;3;340;1250000;Legendary;;;106;110;90;154;90;130;680;0;0;0;3;0;0;XY Evolutions;51;x
 150;150_1;Mewtwo;Mega Mewtwo X;1;2.3;127;Psychic;Fighting;Steadfast;;;Purple;0;0;100;120;Undiscovered;;3;351;1250000;Legendary;Mega;;106;190;100;154;100;130;780;0;0;0;3;0;0;XY BREAKThrough;63;x
 150;150_2;Mewtwo;Mega Mewtwo Y;1;1.5;33;Psychic;;Insomnia;;;Purple;0;0;100;120;Undiscovered;;3;351;1250000;Legendary;Mega;;106;150;70;194;120;140;780;0;0;0;3;0;0;XY BREAKThrough;64;x
@@ -222,7 +222,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 152;152_0;Chikorita;Chikorita;2;0.9;6.4;Grass;;Overgrow;;Leaf Guard;Green;87.5;12.5;0;20;Monster;Grass;45;64;1059860;Ordinary;;;45;49;65;49;65;45;318;0;0;0;0;1;0;HeartGold SoulSilver;59;x
 153;153_0;Bayleef;Bayleef;2;1.2;15.8;Grass;;Overgrow;;Leaf Guard;Green;87.5;12.5;0;20;Monster;Grass;45;142;1059860;Ordinary;;;60;62;80;63;80;60;405;0;0;1;0;1;0;HeartGold SoulSilver;35;x
 154;154_0;Meganium;Meganium;2;1.8;100.5;Grass;;Overgrow;;Leaf Guard;Green;87.5;12.5;0;20;Monster;Grass;45;263;1059860;Ordinary;;;80;82;100;83;100;80;525;0;0;1;0;2;0;HeartGold SoulSilver;26;x
-154;154_1;Meganium;Mega Meganium;2;2.4;201;Grass;Fairy;;;;Green;87.5;12.5;0;20;Monster;Grass;45;263;1059860;Ordinary;Mega;;80;92;115;143;115;80;625;0;0;1;0;2;0;ME Ascended Heroes;;x
+154;154_1;Meganium;Mega Meganium;2;2.4;201;Grass;Fairy;;;;Green;87.5;12.5;0;20;Monster;Grass;45;263;1059860;Ordinary;Mega;;80;92;115;143;115;80;625;0;0;1;0;2;0;ME Ascended Heroes;10;x
 155;155_0;Cyndaquil;Cyndaquil;2;0.5;7.9;Fire;;Blaze;;Flash Fire;Yellow;87.5;12.5;0;20;Ground;;45;62;1059860;Ordinary;;;39;52;43;60;50;65;309;0;0;0;0;0;1;HeartGold SoulSilver;61;x
 156;156_0;Quilava;Quilava;2;0.9;19;Fire;;Blaze;;Flash Fire;Yellow;87.5;12.5;0;20;Ground;;45;142;1059860;Ordinary;;;58;64;58;80;65;80;405;0;0;0;1;0;1;HeartGold SoulSilver;49;x
 157;157_0;Typhlosion;Typhlosion;2;1.7;79.5;Fire;;Blaze;;Flash Fire;Yellow;87.5;12.5;0;20;Ground;;45;267;1059860;Ordinary;;;78;84;78;109;85;100;534;0;0;0;3;0;0;HeartGold SoulSilver;32;x
@@ -230,7 +230,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 158;158_0;Totodile;Totodile;2;0.6;9.5;Water;;Torrent;;Sheer Force;Blue;87.5;12.5;0;20;Monster;Water1;45;63;1059860;Ordinary;;;50;65;64;44;48;43;314;0;1;0;0;0;0;HeartGold SoulSilver;86;x
 159;159_0;Croconaw;Croconaw;2;1.1;25;Water;;Torrent;;Sheer Force;Blue;87.5;12.5;0;20;Monster;Water1;45;142;1059860;Ordinary;;;65;80;80;59;63;58;405;0;1;1;0;0;0;HeartGold SoulSilver;38;x
 160;160_0;Feraligatr;Feraligatr;2;2.3;88.8;Water;;Torrent;;Sheer Force;Blue;87.5;12.5;0;20;Monster;Water1;45;265;1059860;Ordinary;;;85;105;100;79;83;78;530;0;2;1;0;0;0;HeartGold SoulSilver;20;x
-160;160_1;Feraligatr;Mega Feraligatr;2;2.3;108.8;Water;Dragon;;;;Blue;87.5;12.5;0;20;Monster;Water1;45;265;1059860;Ordinary;Mega;;85;160;125;89;93;78;630;0;2;1;0;0;0;ME Ascended Heroes;;
+160;160_1;Feraligatr;Mega Feraligatr;2;2.3;108.8;Water;Dragon;;;;Blue;87.5;12.5;0;20;Monster;Water1;45;265;1059860;Ordinary;Mega;;85;160;125;89;93;78;630;0;2;1;0;0;0;ME Ascended Heroes;43;
 161;161_0;Sentret;Sentret;2;0.8;6;Normal;;Run Away;Keen Eye;Frisk;Brown;50;50;0;15;Ground;;255;43;1000000;Ordinary;;;35;46;34;35;45;20;215;0;1;0;0;0;0;HeartGold SoulSilver;80;x
 162;162_0;Furret;Furret;2;1.8;32.5;Normal;;Run Away;Keen Eye;Frisk;Brown;50;50;0;15;Ground;;90;145;1000000;Ordinary;;;85;76;64;45;55;90;415;0;0;0;0;0;2;HeartGold SoulSilver;21;x
 163;163_0;Hoothoot;Hoothoot;2;0.7;21.2;Normal;Flying;Insomnia;Keen Eye;Tinted Lens;Brown;50;50;0;15;Flying;;255;52;1000000;Ordinary;;;60;30;30;36;56;50;262;1;0;0;0;0;0;HeartGold SoulSilver;66;x
@@ -319,7 +319,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 212;212_0;Scizor;Scizor;2;1.8;118;Bug;Steel;Swarm;Technician;Light Metal;Red;50;50;0;25;Bug;;25;175;1000000;Ordinary;;;70;130;100;55;80;65;500;0;2;0;0;0;0;HS Undaunted;7;x
 213;213_0;Shuckle;Shuckle;2;0.6;20.5;Bug;Rock;Sturdy;Gluttony;Contrary;Yellow;50;50;0;20;Bug;;190;177;1059860;Ordinary;;;20;10;230;10;230;5;505;0;0;1;0;1;0;HeartGold SoulSilver;11;x
 214;214_0;Heracross;Heracross;2;1.5;54;Bug;Fighting;Swarm;Guts;Moxie;Blue;50;50;0;25;Bug;;45;175;1250000;Ordinary;;;80;125;75;40;95;85;500;0;2;0;0;0;0;HeartGold SoulSilver;43;x
-214;214_1;Heracross;Mega Heracross;2;1.7;62.5;Bug;Fighting;Skill Link;;;Blue;50;50;0;25;Bug;;45;210;1250000;Ordinary;Mega;;80;185;115;40;105;75;600;0;2;0;0;0;0;XY Furious Fists;5;x
+214;214_1;Heracross;Mega Heracross;2;1.7;62.5;Bug;Fighting;Skill Link;;;Blue;50;50;0;25;Bug;;45;210;1250000;Ordinary;Mega;;80;185;115;40;105;75;600;0;2;0;0;0;0;ME Phantasmal Flames;4;x
 215;215_0;Sneasel;Sneasel;2;0.9;28;Dark;Ice;Inner Focus;Keen Eye;Pickpocket;Black;50;50;0;20;Ground;;60;86;1059860;Ordinary;;;55;95;55;35;75;115;430;0;0;0;0;0;1;HS Undaunted;68;x
 215;215_1;Sneasel;Hisuian Sneasel;8;0.9;27;Fighting;Poison;Inner Focus;Keen Eye;Pickpocket;Purple;50;50;0;20;Ground;;60;86;1059860;Ordinary;;Hisuian;55;95;55;35;75;115;430;0;0;0;0;0;1;SWSH Astral Radiance;92;x
 216;216_0;Teddiursa;Teddiursa;2;0.6;8.8;Normal;;Pickup;Quick Feet;Honey Gather;Brown;50;50;0;20;Ground;;120;66;1000000;Ordinary;;;60;80;50;50;50;40;330;0;1;0;0;0;0;HS Unleashed;65;x
@@ -335,7 +335,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 225;225_0;Delibird;Delibird;2;0.9;16;Ice;Flying;Vital Spirit;Hustle;Insomnia;Red;50;50;0;20;Water1;Ground;45;116;800000;Ordinary;;;45;55;45;65;45;75;330;0;0;0;0;0;1;HeartGold SoulSilver;39;x
 226;226_0;Mantine;Mantine;2;2.1;220;Water;Flying;Swift Swim;Water Absorb;Water Veil;Purple;50;50;0;25;Water1;;25;170;1250000;Ordinary;;;85;40;70;80;140;70;485;0;0;0;0;2;0;HeartGold SoulSilver;45;x
 227;227_0;Skarmory;Skarmory;2;1.7;50.5;Steel;Flying;Keen Eye;Sturdy;Weak Armor;Gray;50;50;0;25;Flying;;25;163;1250000;Ordinary;;;65;80;140;40;70;70;465;0;0;2;0;0;0;HS Undaunted;21;x
-227;227_1;Skarmory;Mega Skarmory;2;1.7;40.4;Steel;Flying;;;;Yellow;50;50;0;25;Flying;;25;163;1250000;Ordinary;Mega;;65;140;110;40;100;110;565;0;0;2;0;0;0;HS Undaunted;21;x
+227;227_1;Skarmory;Mega Skarmory;2;1.7;40.4;Steel;Flying;;;;Yellow;50;50;0;25;Flying;;25;163;1250000;Ordinary;Mega;;65;140;110;40;100;110;565;0;0;2;0;0;0;ME Perfect Order;55;x
 228;228_0;Houndour;Houndour;2;0.6;10.8;Dark;Fire;Early Bird;Flash Fire;Unnerve;Black;50;50;0;20;Ground;;120;66;1250000;Ordinary;;;45;60;30;80;50;65;330;0;0;0;1;0;0;HS Undaunted;53;x
 229;229_0;Houndoom;Houndoom;2;1.4;35;Dark;Fire;Early Bird;Flash Fire;Unnerve;Black;50;50;0;20;Ground;;45;175;1250000;Ordinary;;;75;90;50;110;80;95;500;0;0;0;2;0;0;HS Undaunted;5;x
 229;229_1;Houndoom;Mega Houndoom;2;1.9;49.5;Dark;Fire;Solar Power;;;Black;50;50;0;20;Ground;;45;210;1250000;Ordinary;Mega;;75;90;90;140;90;115;600;0;0;0;2;0;0;XY BREAKThrough;22;x
@@ -488,8 +488,8 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 357;357_0;Tropius;Tropius;3;2;100;Grass;Flying;Chlorophyll;Solar Power;Harvest;Green;50;50;0;25;Monster;Grass;200;161;1250000;Ordinary;;;99;68;83;72;87;51;460;2;0;0;0;0;0;EX Hidden Legends;27;x
 358;358_0;Chimecho;Chimecho;3;0.6;1;Psychic;;Levitate;;;Blue;50;50;0;25;Amorphous;;45;159;800000;Ordinary;;;75;50;80;95;90;65;455;0;0;0;1;1;0;EX Hidden Legends;17;x
 358;358_1;Chimecho;Mega Chimecho;3;1.2;8;Psychic;Steel;;;;Blue;50;50;0;25;Amorphous;;45;159;800000;Ordinary;Mega;;;;;;;;;;;;;;;;;
-359;359_2;Absol;Mega Absol Z;3;1.2;49;Dark;Ghost;Magic Bounce;;;White;50;50;0;25;Ground;;30;198;1059860;Ordinary;Mega;;65;150;60;115;60;115;565;0;2;0;0;0;0;XY Black Star Promos;XY63;
-359;359_1;Absol;Mega Absol;3;1.2;49;Dark;;Magic Bounce;;;White;50;50;0;25;Ground;;30;198;1059860;Ordinary;Mega;;65;150;60;115;60;115;565;0;2;0;0;0;0;XY Black Star Promos;XY63;x
+359;359_2;Absol;Mega Absol Z;3;1.2;49;Dark;Ghost;Magic Bounce;;;White;50;50;0;25;Ground;;30;198;1059860;Ordinary;Mega;;65;150;60;115;60;115;565;0;2;0;0;0;0;;;
+359;359_1;Absol;Mega Absol;3;1.2;49;Dark;;Magic Bounce;;;White;50;50;0;25;Ground;;30;198;1059860;Ordinary;Mega;;65;150;60;115;60;115;565;0;2;0;0;0;0;Mega Evolution;86;x
 359;359_0;Absol;Absol;3;1.2;47;Dark;;Pressure;Super Luck;Justified;White;50;50;0;25;Ground;;30;163;1059860;Ordinary;;;65;130;60;75;60;75;465;0;2;0;0;0;0;EX Dragon;1;
 360;360_0;Wynaut;Wynaut;3;0.6;14;Psychic;;Shadow Tag;;Telepathy;Blue;50;50;0;20;Undiscovered;;125;52;1000000;Ordinary;;;95;23;48;23;48;23;260;1;0;0;0;0;0;EX Sandstorm;54;x
 361;361_0;Snorunt;Snorunt;3;0.7;16.8;Ice;;Inner Focus;Ice Body;Moody;Gray;50;50;0;20;Fairy;Mineral;190;60;1000000;Ordinary;;;50;50;50;50;50;50;300;1;0;0;0;0;0;EX Hidden Legends;73;x
@@ -579,7 +579,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 426;426_0;Drifblim;Drifblim;4;1.2;15;Ghost;Flying;Aftermath;Unburden;Flare Boost;Purple;50;50;0;30;Amorphous;;60;174;1640000;Ordinary;;;150;80;44;90;54;80;498;2;0;0;0;0;0;Diamond & Pearl;24;x
 427;427_0;Buneary;Buneary;4;0.4;5.5;Normal;;Run Away;Klutz;Limber;Brown;50;50;0;20;Ground;Human-Like;190;70;1000000;Ordinary;;;55;66;44;44;56;85;350;0;0;0;0;0;1;Diamond & Pearl;73;x
 428;428_0;Lopunny;Lopunny;4;1.2;33.3;Normal;;Cute Charm;Klutz;Limber;Brown;50;50;0;20;Ground;Human-Like;60;168;1000000;Ordinary;;;65;76;84;54;96;105;480;0;0;0;0;0;2;Diamond & Pearl;30;x
-428;428_1;Lopunny;Mega Lopunny;4;1.3;28.3;Normal;Fighting;Scrappy;;;Brown;50;50;0;20;Ground;Human-Like;60;203;1000000;Ordinary;Mega;;65;136;94;54;96;135;580;0;0;0;0;0;2;SM Cosmic Eclipse;165;x
+428;428_1;Lopunny;Mega Lopunny;4;1.3;28.3;Normal;Fighting;Scrappy;;;Brown;50;50;0;20;Ground;Human-Like;60;203;1000000;Ordinary;Mega;;65;136;94;54;96;135;580;0;0;0;0;0;2;ME Phantasmal Flames;84;x
 429;429_0;Mismagius;Mismagius;4;0.9;4.4;Ghost;;Levitate;;;Purple;50;50;0;25;Amorphous;;45;173;800000;Ordinary;;;60;60;60;105;105;105;495;0;0;0;1;1;0;Diamond & Pearl;10;x
 430;430_0;Honchkrow;Honchkrow;4;0.9;27.3;Dark;Flying;Insomnia;Super Luck;Moxie;Black;50;50;0;20;Flying;;30;177;1059860;Ordinary;;;100;125;52;105;52;71;505;0;2;0;0;0;0;DP Mysterious Treasures;10;x
 431;431_0;Glameow;Glameow;4;0.5;3.9;Normal;;Limber;Own Tempo;Keen Eye;Gray;25;75;0;20;Ground;;190;62;800000;Ordinary;;;49;55;42;42;37;85;310;0;0;0;0;0;1;Diamond & Pearl;83;x
@@ -598,12 +598,12 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 444;444_0;Gabite;Gabite;4;1.4;56;Dragon;Ground;Sand Veil;;Rough Skin;Blue;50;50;0;40;Monster;Dragon;45;144;1250000;Ordinary;;;68;90;65;50;55;82;410;0;2;0;0;0;0;DP Mysterious Treasures;48;x
 445;445_0;Garchomp;Garchomp;4;1.9;95;Dragon;Ground;Sand Veil;;Rough Skin;Blue;50;50;0;40;Monster;Dragon;45;300;1250000;Ordinary;;;108;130;95;80;85;102;600;0;3;0;0;0;0;DP Mysterious Treasures;9;x
 445;445_1;Garchomp;Mega Garchomp;4;1.9;95;Dragon;Ground;Sand Force;;;Blue;50;50;0;40;Monster;Dragon;45;315;1250000;Ordinary;Mega;;108;170;115;120;95;92;700;0;3;0;0;0;0;XY Black Star Promos;XY168;
-445;445_2;Garchomp;Mega Garchomp Z;4;1.9;95;Dragon;Ground;Sand Force;;;Blue;50;50;0;40;Monster;Dragon;45;315;1250000;Ordinary;Mega;;108;170;115;120;95;92;700;0;3;0;0;0;0;XY Black Star Promos;XY168;
+445;445_2;Garchomp;Mega Garchomp Z;4;1.9;95;Dragon;Ground;Sand Force;;;Blue;50;50;0;40;Monster;Dragon;45;315;1250000;Ordinary;Mega;;108;170;115;120;95;92;700;0;3;0;0;0;0;;;
 446;446_0;Munchlax;Munchlax;4;0.6;105;Normal;;Pickup;Thick Fat;Gluttony;Black;87.5;12.5;0;40;Undiscovered;;50;78;1250000;Ordinary;;;135;85;40;40;85;5;390;1;0;0;0;0;0;Diamond & Pearl;33;
 447;447_0;Riolu;Riolu;4;0.7;20.2;Fighting;;Steadfast;Inner Focus;Prankster;Blue;87.5;12.5;0;25;Undiscovered;;75;57;1059860;Ordinary;;;40;70;40;35;40;60;285;0;1;0;0;0;0;Diamond & Pearl;61;x
 448;448_0;Lucario;Lucario;4;1.2;54;Fighting;Steel;Steadfast;Inner Focus;Justified;Blue;87.5;12.5;0;25;Ground;Human-Like;45;184;1059860;Ordinary;;;70;110;70;115;70;90;525;0;1;0;1;0;0;Diamond & Pearl;6;x
-448;448_1;Lucario;Mega Lucario;4;1.3;57.5;Fighting;Steel;Adaptability;;;Blue;87.5;12.5;0;25;Ground;Human-Like;45;219;1059860;Ordinary;Mega;;70;145;88;140;70;112;625;0;1;0;1;0;0;XY Furious Fists;55;x
-448;448_2;Lucario;Mega Lucario Z;4;1.3;57.5;Fighting;Steel;Adaptability;;;Blue;87.5;12.5;0;25;Ground;Human-Like;45;219;1059860;Ordinary;Mega;;70;145;88;140;70;112;625;0;1;0;1;0;0;XY Furious Fists;55;
+448;448_1;Lucario;Mega Lucario;4;1.3;57.5;Fighting;Steel;Adaptability;;;Blue;87.5;12.5;0;25;Ground;Human-Like;45;219;1059860;Ordinary;Mega;;70;145;88;140;70;112;625;0;1;0;1;0;0;Mega Evolution;77;x
+448;448_2;Lucario;Mega Lucario Z;4;1.3;57.5;Fighting;Steel;Adaptability;;;Blue;87.5;12.5;0;25;Ground;Human-Like;45;219;1059860;Ordinary;Mega;;70;145;88;140;70;112;625;0;1;0;1;0;0;;;
 449;449_0;Hippopotas;Hippopotas;4;0.8;49.5;Ground;;Sand Stream;;Sand Force;Brown;50;50;0;30;Ground;;140;66;1250000;Ordinary;;;68;72;78;38;42;32;330;0;0;1;0;0;0;Diamond & Pearl;51;x
 450;450_0;Hippowdon;Hippowdon;4;2;300;Ground;;Sand Stream;;Sand Force;Brown;50;50;0;30;Ground;;60;184;1250000;Ordinary;;;108;112;118;68;72;47;525;0;0;2;0;0;0;Diamond & Pearl;29;x
 451;451_0;Skorupi;Skorupi;4;0.8;12;Poison;Bug;Battle Armor;Sniper;Keen Eye;Purple;50;50;0;20;Bug;Water3;120;66;1250000;Ordinary;;;40;50;90;30;55;65;330;0;0;1;0;0;0;Diamond & Pearl;99;x
@@ -616,7 +616,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 458;458_0;Mantyke;Mantyke;4;1;65;Water;Flying;Swift Swim;Water Absorb;Water Veil;Blue;50;50;0;25;Undiscovered;;25;69;1250000;Ordinary;;;45;20;50;60;120;50;345;0;0;0;0;1;0;Diamond & Pearl;55;x
 459;459_0;Snover;Snover;4;1;50.5;Grass;Ice;Snow Warning;;Soundproof;White;50;50;0;20;Monster;Grass;120;67;1250000;Ordinary;;;60;62;50;62;60;40;334;0;1;0;0;0;0;DP Mysterious Treasures;101;
 460;460_0;Abomasnow;Abomasnow;4;2.2;135.5;Grass;Ice;Snow Warning;;Soundproof;White;50;50;0;20;Monster;Grass;60;173;1250000;Ordinary;;;90;92;75;92;85;60;494;0;1;0;1;0;0;DP Mysterious Treasures;19;
-460;460_1;Abomasnow;Mega Abomasnow;4;2.7;185;Grass;Ice;Snow Warning;;;White;50;50;0;20;Monster;Grass;60;208;1250000;Ordinary;Mega;;90;132;105;132;105;30;594;0;1;0;1;0;0;;;x
+460;460_1;Abomasnow;Mega Abomasnow;4;2.7;185;Grass;Ice;Snow Warning;;;White;50;50;0;20;Monster;Grass;60;208;1250000;Ordinary;Mega;;90;132;105;132;105;30;594;0;1;0;1;0;0;Mega Evolution;36;x
 461;461_0;Weavile;Weavile;4;1.1;34;Dark;Ice;Pressure;;Pickpocket;Black;50;50;0;20;Ground;;45;179;1059860;Ordinary;;;70;120;65;45;85;125;510;0;1;0;0;0;1;Diamond & Pearl;40;x
 462;462_0;Magnezone;Magnezone;4;1.2;180;Electric;Steel;Magnet Pull;Sturdy;Analytic;Gray;0;0;100;20;Mineral;;30;268;1000000;Ordinary;;;70;70;115;130;90;60;535;0;0;0;3;0;0;Diamond & Pearl;8;x
 463;463_0;Lickilicky;Lickilicky;4;1.7;140;Normal;;Own Tempo;Oblivious;Cloud Nine;Pink;50;50;0;20;Monster;;30;180;1000000;Ordinary;;;110;85;95;80;95;50;515;3;0;0;0;0;0;DP Secret Wonders;12;x
@@ -632,11 +632,11 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 473;473_0;Mamoswine;Mamoswine;4;2.5;291;Ice;Ground;Oblivious;Snow Cloak;Thick Fat;Brown;50;50;0;20;Ground;;50;265;1250000;Ordinary;;;110;130;80;70;60;80;530;0;3;0;0;0;0;DP Legends Awakened;9;x
 474;474_0;Porygon-Z;Porygon-Z;4;0.9;34;Normal;;Adaptability;Download;Analytic;Red;0;0;100;20;Mineral;;30;268;1000000;Ordinary;;;85;80;70;135;75;90;535;0;0;0;3;0;0;DP Great Encounters;6;x
 475;475_0;Gallade;Gallade;4;1.6;52;Psychic;Fighting;Steadfast;Sharpness;Justified;White;100;0;0;20;Human-Like;Amorphous;45;259;1250000;Ordinary;;;68;125;65;65;115;80;518;0;3;0;0;0;0;DP Secret Wonders;6;x
-475;475_1;Gallade;Mega Gallade;4;1.6;56.4;Psychic;Fighting;Inner Focus;;;White;100;0;0;20;Amorphous;;45;278;1250000;Ordinary;Mega;;68;165;95;65;115;110;618;0;3;0;0;0;0;XY Roaring Skies;35;x
+475;475_1;Gallade;Mega Gallade;4;1.6;56.4;Psychic;Fighting;Inner Focus;;;White;100;0;0;20;Amorphous;;45;278;1250000;Ordinary;Mega;;68;165;95;65;115;110;618;0;3;0;0;0;0;ME Chaos Rising;48;x
 476;476_0;Probopass;Probopass;4;1.4;340;Rock;Steel;Sturdy;Magnet Pull;Sand Force;Gray;50;50;0;20;Mineral;;60;184;1000000;Ordinary;;;60;55;145;75;150;40;525;0;0;1;0;2;0;DP Legends Awakened;13;x
 477;477_0;Dusknoir;Dusknoir;4;2.2;106.6;Ghost;;Pressure;;Frisk;Black;50;50;0;25;Amorphous;;45;263;800000;Ordinary;;;45;100;135;65;135;45;525;0;0;1;0;2;0;Diamond & Pearl;2;x
 478;478_0;Froslass;Froslass;4;1.3;26.6;Ice;Ghost;Snow Cloak;;Cursed Body;White;0;100;0;20;Fairy;Mineral;75;168;1000000;Ordinary;;;70;80;70;80;70;110;480;0;0;0;0;0;2;DP Legends Awakened;3;
-478;478_1;Froslass;Mega Froslass;4;2.6;29.6;Ice;Ghost;;;;White;0;100;0;;Fairy;Mineral;75;168;;;Mega;;70;80;70;140;100;120;580;0;0;0;0;0;2;;;x
+478;478_1;Froslass;Mega Froslass;4;2.6;29.6;Ice;Ghost;;;;White;0;100;0;;Fairy;Mineral;75;168;;;Mega;;70;80;70;140;100;120;580;0;0;0;0;0;2;ME Ascended Heroes;47;x
 479;479_0;Rotom;Rotom;4;0.3;0.3;Electric;Ghost;Levitate;;;Red;0;0;100;20;Amorphous;;45;154;1000000;Ordinary;;;50;50;77;95;77;91;440;0;0;0;1;0;1;DP Great Encounters;7;x
 479;479_1;Rotom;Heat Rotom;4;0.3;0.3;Electric;Fire;Levitate;;;Red;0;0;100;20;Amorphous;;45;182;1000000;Ordinary;;;50;65;107;105;107;86;520;0;0;0;1;0;1;PL Rising Rivals;RT3;x
 479;479_2;Rotom;Wash Rotom;4;0.3;0.3;Electric;Water;Levitate;;;Red;0;0;100;20;Amorphous;;45;182;1000000;Ordinary;;;50;65;107;105;107;86;520;0;0;0;1;0;1;PL Rising Rivals;RT5;
@@ -659,7 +659,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 489;489_0;Phione;Phione;4;0.4;3.1;Water;;Hydration;;;Blue;0;0;100;40;Water1;Fairy;30;216;1250000;Mythical;;;80;80;80;80;80;80;480;1;0;0;0;0;0;DP Majestic Dawn;12;
 490;490_0;Manaphy;Manaphy;4;0.3;1.4;Water;;Hydration;;;Blue;0;0;100;10;Water1;Fairy;3;270;1250000;Mythical;;;100;100;100;100;100;100;600;3;0;0;0;0;0;Diamond & Pearl;9;x
 491;491_0;Darkrai;Darkrai;4;1.5;50.5;Dark;;Bad Dreams;;;Black;0;0;100;120;Undiscovered;;3;270;1250000;Mythical;;;70;90;90;135;90;125;600;0;0;0;2;0;1;DP Great Encounters;4;x
-491;491_1;Darkrai;Mega Darkrai;4;;;;;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;;;
+491;491_1;Darkrai;Mega Darkrai;4;;;;;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;ME Pitch Black;48;x
 492;492_0;Shaymin;Shaymin Land Form;4;0.2;2.1;Grass;;Natural Cure;;;Green;0;0;100;120;Undiscovered;;45;270;1059860;Mythical;;;100;100;100;100;100;100;600;3;0;0;0;0;0;Platinum;14;x
 492;492_1;Shaymin;Shaymin Sky Form;4;0.4;5.2;Grass;Flying;Serene Grace;;;Green;0;0;100;120;Undiscovered;;45;270;1059860;Mythical;;;100;103;75;120;75;127;600;0;0;0;0;0;3;Platinum;15;x
 493;493_0;Arceus;Arceus;4;3.2;320;Normal;;Multitype;;;White;0;0;100;120;Undiscovered;;3;360;1250000;Mythical;;;120;120;120;120;120;120;720;3;0;0;0;0;0;PL Arceus;AR5;x
@@ -687,7 +687,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 498;498_0;Tepig;Tepig;5;0.5;9.9;Fire;;Blaze;;Thick Fat;Red;87.5;12.5;0;20;Ground;;45;62;1059860;Ordinary;;;65;63;45;45;45;45;308;1;0;0;0;0;0;BW Black Star Promos;BW02;x
 499;499_0;Pignite;Pignite;5;1;55.5;Fire;Fighting;Blaze;;Thick Fat;Red;87.5;12.5;0;20;Ground;;45;146;1059860;Ordinary;;;90;93;55;70;55;55;418;0;2;0;0;0;0;Black & White;18;x
 500;500_0;Emboar;Emboar;5;1.6;150;Fire;Fighting;Blaze;;Reckless;Red;87.5;12.5;0;20;Ground;;45;238;1059860;Ordinary;;;110;123;65;100;65;65;528;0;3;0;0;0;0;Black & White;20;x
-500;500_1;Emboar;Mega Emboar;5;;;Fire;Fighting;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;;;x
+500;500_1;Emboar;Mega Emboar;5;;;Fire;Fighting;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;ME Ascended Heroes;31;x
 501;501_0;Oshawott;Oshawott;5;0.5;5.9;Water;;Torrent;;Shell Armor;Blue;87.5;12.5;0;20;Ground;;45;62;1059860;Ordinary;;;55;55;45;63;45;45;308;0;0;0;1;0;0;BW Black Star Promos;BW03;x
 502;502_0;Dewott;Dewott;5;0.8;24.5;Water;;Torrent;;Shell Armor;Blue;87.5;12.5;0;20;Ground;;45;145;1059860;Ordinary;;;75;75;60;83;60;60;413;0;0;0;2;0;0;Black & White;30;x
 503;503_0;Samurott;Samurott;5;1.5;94.6;Water;;Torrent;;Shell Armor;Blue;87.5;12.5;0;20;Ground;;45;264;1059860;Ordinary;;;95;100;85;108;70;70;528;0;0;0;3;0;0;Black & White;32;x
@@ -720,9 +720,9 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 528;528_0;Swoobat;Swoobat;5;0.9;10.5;Psychic;Flying;Unaware;Klutz;Simple;Blue;50;50;0;15;Ground;Flying;45;149;1000000;Ordinary;;;67;57;55;77;55;114;425;0;0;0;0;0;2;Black & White;51;x
 529;529_0;Drilbur;Drilbur;5;0.3;8.5;Ground;;Sand Rush;Sand Force;Mold Breaker;Gray;50;50;0;20;Ground;;120;66;1000000;Ordinary;;;60;85;40;30;45;68;328;0;1;0;0;0;0;BW Emerging Powers;54;x
 530;530_0;Excadrill;Excadrill;5;0.7;40.4;Ground;Steel;Sand Rush;Sand Force;Mold Breaker;Gray;50;50;0;20;Ground;;60;178;1000000;Ordinary;;;110;135;60;50;65;88;508;0;2;0;0;0;0;BW Emerging Powers;56;x
-530;530_1;Excadrill;Mega Excadrill;5;;;Rock;Steel;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;;;
+530;530_1;Excadrill;Mega Excadrill;5;;;Rock;Steel;;;;;;;;;;;;;;;Mega;;;;;;;;;;;;;;;ME Pitch Black;65;x
 531;531_0;Audino;Audino;5;1.1;31;Normal;;Healer;Regenerator;Klutz;Pink;50;50;0;20;Fairy;;255;390;800000;Ordinary;;;103;60;86;60;86;50;445;2;0;0;0;0;0;Black & White;87;x
-531;531_1;Audino;Mega Audino;5;1.5;32;Normal;Fairy;Healer;;;White;50;50;0;20;Fairy;;255;425;800000;Ordinary;Mega;;103;60;126;80;126;50;545;2;0;0;0;0;0;XY Fates Collide;85;x
+531;531_1;Audino;Mega Audino;5;1.5;32;Normal;Fairy;Healer;;;White;50;50;0;20;Fairy;;255;425;800000;Ordinary;Mega;;103;60;126;80;126;50;545;2;0;0;0;0;0;ME Ascended Heroes;172;x
 532;532_0;Timburr;Timburr;5;0.6;12.5;Fighting;;Guts;Sheer Force;Iron Fist;Gray;75;25;0;20;Human-Like;;180;61;1059860;Ordinary;;;75;80;55;25;35;35;305;0;1;0;0;0;0;BW Noble Victories;62;x
 533;533_0;Gurdurr;Gurdurr;5;1.2;40;Fighting;;Guts;Sheer Force;Iron Fist;Gray;75;25;0;20;Human-Like;;90;142;1059860;Ordinary;;;85;105;85;40;50;40;405;0;2;0;0;0;0;BW Noble Victories;63;x
 534;534_0;Conkeldurr;Conkeldurr;5;1.4;87;Fighting;;Guts;Sheer Force;Iron Fist;Brown;75;25;0;20;Human-Like;;45;253;1059860;Ordinary;;;105;140;95;55;65;45;505;0;3;0;0;0;0;BW Noble Victories;64;x
@@ -814,13 +814,13 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 602;602_0;Tynamo;Tynamo;5;0.2;0.3;Electric;;Levitate;;;White;50;50;0;20;Amorphous;;190;55;1250000;Ordinary;;;35;55;40;45;40;60;275;0;0;0;0;0;1;BW Noble Victories;38;x
 603;603_0;Eelektrik;Eelektrik;5;1.2;22;Electric;;Levitate;;;Blue;50;50;0;20;Amorphous;;60;142;1250000;Ordinary;;;65;85;70;75;70;40;405;0;2;0;0;0;0;BW Noble Victories;40;x
 604;604_0;Eelektross;Eelektross;5;2.1;80.5;Electric;;Levitate;;;Blue;50;50;0;20;Amorphous;;30;258;1250000;Ordinary;;;85;115;80;105;80;50;515;0;3;0;0;0;0;BW Noble Victories;41;x
-604;604_1;Eelektross;Mega Eelektross;5;2.1;80.5;Electric;;Levitate;;;Blue;50;50;0;20;Amorphous;;30;258;1250000;Ordinary;Mega;;85;115;80;105;80;50;515;0;3;0;0;0;0;BW Noble Victories;41;x
+604;604_1;Eelektross;Mega Eelektross;5;2.1;80.5;Electric;;Levitate;;;Blue;50;50;0;20;Amorphous;;30;258;1250000;Ordinary;Mega;;85;115;80;105;80;50;515;0;3;0;0;0;0;ME Ascended Heroes;61;x
 605;605_0;Elgyem;Elgyem;5;0.5;9;Psychic;;Telepathy;Synchronize;Analytic;Blue;50;50;0;20;Human-Like;;255;67;1000000;Ordinary;;;55;55;55;85;55;30;335;0;0;0;1;0;0;BW Noble Victories;55;x
 606;606_0;Beheeyem;Beheeyem;5;1;34.5;Psychic;;Telepathy;Synchronize;Analytic;Brown;50;50;0;20;Human-Like;;90;170;1000000;Ordinary;;;75;75;75;125;95;40;485;0;0;0;2;0;0;BW Noble Victories;56;x
 607;607_0;Litwick;Litwick;5;0.3;3.1;Ghost;Fire;Flash Fire;Flame Body;Infiltrator;White;50;50;0;20;Amorphous;;190;55;1059860;Ordinary;;;50;30;55;65;55;20;275;0;0;0;1;0;0;BW Next Destinies;18;x
 608;608_0;Lampent;Lampent;5;0.6;13;Ghost;Fire;Flash Fire;Flame Body;Infiltrator;Black;50;50;0;20;Amorphous;;90;130;1059860;Ordinary;;;60;40;60;95;60;55;370;0;0;0;2;0;0;BW Next Destinies;19;x
 609;609_0;Chandelure;Chandelure;5;1;34.3;Ghost;Fire;Flash Fire;Flame Body;Infiltrator;Black;50;50;0;20;Amorphous;;45;260;1059860;Ordinary;;;60;55;90;145;90;80;520;0;0;0;3;0;0;BW Next Destinies;20;
-609;609_1;Chandelure;Mega Chandelure;5;;;Ghost;Fire;;;;;50;50;0;;;;;;;;Mega;;60;75;110;175;110;90;620;;;;;;;;;
+609;609_1;Chandelure;Mega Chandelure;5;;;Ghost;Fire;;;;;50;50;0;;;;;;;;Mega;;60;75;110;175;110;90;620;;;;;;;ME Pitch Black;38;x
 610;610_0;Axew;Axew;5;0.6;18;Dragon;;Rivalry;Mold Breaker;Unnerve;Green;50;50;0;40;Monster;Dragon;75;64;1250000;Ordinary;;;46;87;60;30;40;57;320;0;1;0;0;0;0;BW Noble Victories;86;x
 611;611_0;Fraxure;Fraxure;5;1;36;Dragon;;Rivalry;Mold Breaker;Unnerve;Green;50;50;0;40;Monster;Dragon;60;144;1250000;Ordinary;;;66;117;70;40;50;67;410;0;2;0;0;0;0;BW Noble Victories;87;x
 612;612_0;Haxorus;Haxorus;5;1.8;105.5;Dragon;;Rivalry;Mold Breaker;Unnerve;Yellow;50;50;0;40;Monster;Dragon;45;270;1250000;Ordinary;;;76;147;90;60;70;97;540;0;3;0;0;0;0;BW Noble Victories;88;x
@@ -836,7 +836,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 621;621_0;Druddigon;Druddigon;5;1.6;139;Dragon;;Rough Skin;Sheer Force;Mold Breaker;Red;50;50;0;30;Dragon;Monster;45;170;1000000;Ordinary;;;77;120;90;60;90;48;485;0;2;0;0;0;0;BW Noble Victories;89;
 622;622_0;Golett;Golett;5;1;92;Ground;Ghost;Iron Fist;Klutz;No Guard;Green;0;0;100;25;Mineral;;190;61;1000000;Ordinary;;;59;74;50;35;50;35;303;0;1;0;0;0;0;BW Dragons Exalted;58;x
 623;623_0;Golurk;Golurk;5;2.8;330;Ground;Ghost;Iron Fist;Klutz;No Guard;Green;0;0;100;25;Mineral;;90;169;1000000;Ordinary;;;89;124;80;55;80;55;483;0;2;0;0;0;0;BW Dragons Exalted;59;x
-623;623_1;Golurk;Mega Golurk;5;2.8;330;Ground;Ghost;Iron Fist;Klutz;No Guard;Green;0;0;100;25;Mineral;;90;169;1000000;Ordinary;Mega;;89;124;80;55;80;55;483;0;2;0;0;0;0;BW Dragons Exalted;59;
+623;623_1;Golurk;Mega Golurk;5;2.8;330;Ground;Ghost;Iron Fist;Klutz;No Guard;Green;0;0;100;25;Mineral;;90;169;1000000;Ordinary;Mega;;89;124;80;55;80;55;483;0;2;0;0;0;0;;;
 624;624_0;Pawniard;Pawniard;5;0.5;10.2;Dark;Steel;Defiant;Inner Focus;Pressure;Red;50;50;0;20;Human-Like;;120;68;1000000;Ordinary;;;45;85;70;40;40;60;340;0;1;0;0;0;0;BW Noble Victories;81;x
 625;625_0;Bisharp;Bisharp;5;1.6;70;Dark;Steel;Defiant;Inner Focus;Pressure;Red;50;50;0;20;Human-Like;;45;172;1000000;Ordinary;;;65;125;100;60;70;70;490;0;2;0;0;0;0;BW Noble Victories;82;x
 626;626_0;Bouffalant;Bouffalant;5;1.6;94.6;Normal;;Reckless;Sap Sipper;Soundproof;Brown;50;50;0;20;Ground;;45;172;1000000;Ordinary;;;95;110;95;40;95;55;490;0;2;0;0;0;0;Black & White;90;x
@@ -878,7 +878,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 653;653_0;Fennekin;Fennekin;6;0.4;9.4;Fire;;Blaze;;Magician;Red;87.5;12.5;0;20;Ground;;45;61;1059860;Ordinary;;;40;45;40;62;60;60;307;0;0;0;1;0;0;XY;24;x
 654;654_0;Braixen;Braixen;6;1;14.5;Fire;;Blaze;;Magician;Red;87.5;12.5;0;20;Ground;;45;143;1059860;Ordinary;;;59;59;58;90;70;73;409;0;0;0;2;0;0;XY;25;x
 655;655_0;Delphox;Delphox;6;1.5;39;Fire;Psychic;Blaze;;Magician;Red;87.5;12.5;0;20;Ground;;45;267;1059860;Ordinary;;;75;69;72;114;100;104;534;0;0;0;3;0;0;XY;26;x
-655;655_1;Delphox;Mega Delphox;6;;;Fire;Psychic;;;;;87.5;12.5;0;;;;;;;;Mega;;;;;;;;;;;;;;;;;
+655;655_1;Delphox;Mega Delphox;6;;;Fire;Psychic;;;;;87.5;12.5;0;;;;;;;;Mega;;;;;;;;;;;;;;;ME Pitch Black;8;x
 656;656_0;Froakie;Froakie;6;0.3;7;Water;;Torrent;;Protean;Blue;87.5;12.5;0;20;Water1;;45;63;1059860;Ordinary;;;41;56;40;62;44;71;314;0;0;0;0;0;1;XY;39;x
 657;657_0;Frogadier;Frogadier;6;0.6;10.9;Water;;Torrent;;Protean;Blue;87.5;12.5;0;20;Water1;;45;142;1059860;Ordinary;;;54;63;52;83;56;97;405;0;0;0;0;0;2;XY;40;x
 658;658_0;Greninja;Greninja;6;1.5;40;Water;Dark;Torrent;;Protean;Blue;100;0;0;20;Water1;;45;265;1059860;Ordinary;;;72;95;67;103;71;122;530;0;0;0;0;0;3;XY;41;
@@ -913,10 +913,10 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 666;666_19;Vivillon;Vivillon Poké Ball Pattern;6;1.2;17;Bug;Flying;Shield Dust;Compound Eyes;Friend Guard;White;50;50;0;15;Bug;;45;206;1000000;Ordinary;;;80;52;50;90;50;89;411;1;0;0;1;0;1;;;
 667;667_0;Litleo;Litleo;6;0.6;13.5;Fire;Normal;Rivalry;Unnerve;Moxie;Brown;12.5;87.5;0;20;Ground;;220;74;1059860;Ordinary;;;62;50;58;73;54;72;369;0;0;0;1;0;0;XY Flashfire;18;x
 668;668_0;Pyroar;Pyroar;6;1.5;81.5;Fire;Normal;Rivalry;Unnerve;Moxie;Brown;12.5;87.5;0;20;Ground;;65;177;1059860;Ordinary;;;86;68;72;109;66;106;507;0;0;0;2;0;0;XY Flashfire;20;
-668;668_1;Pyroar;Mega Pyroar;6;1.5;90.5;Fire;Normal;;;;;87.5;12.5;0;;;;;;;;Mega;;86;88;92;129;86;126;;;;;;;;;;x
+668;668_1;Pyroar;Mega Pyroar;6;1.5;90.5;Fire;Normal;;;;;87.5;12.5;0;;;;;;;;Mega;;86;88;92;129;86;126;;;;;;;;ME Chaos Rising;15;x
 669;669_0;Flabebe;Flabebe;6;0.1;0.1;Fairy;;Flower Veil;;Symbiosis;White;0;100;0;20;Fairy;;225;61;1000000;Ordinary;;;44;38;39;61;79;42;303;0;0;0;0;1;0;XY Flashfire;62;x
 670;670_0;Floette;Floette;6;0.2;0.9;Fairy;;Flower Veil;;Symbiosis;White;0;100;0;20;Fairy;;120;130;1000000;Ordinary;;;54;45;47;75;98;52;371;0;0;0;0;2;0;XY Flashfire;65;
-670;670_2;Floette;Mega Eternal Floette;6;0.2;100.8;Fairy;;;;;;0;100;0;;;;;;;;Mega;;74;85;87;155;148;102;651;;;;;;;;;x
+670;670_2;Floette;Mega Eternal Floette;6;0.2;100.8;Fairy;;;;;;0;100;0;;;;;;;;Mega;;74;85;87;155;148;102;651;;;;;;;ME Chaos Rising;35;x
 670;670_1;Floette;Eternal Floette;6;0.2;0.9;Fairy;;;;;;0;100;0;;;;;;;;;;74;85;87;155;148;102;651;;;;;;;;;
 671;671_0;Florges;Florges;6;1.1;10;Fairy;;Flower Veil;;Symbiosis;White;0;100;0;20;Fairy;;45;276;1000000;Ordinary;;;78;65;68;112;154;75;552;0;0;0;0;3;0;XY Flashfire;66;x
 672;672_0;Skiddo;Skiddo;6;0.9;31;Grass;;Sap Sipper;;Grass Pelt;Brown;50;50;0;20;Ground;;200;70;1000000;Ordinary;;;66;65;48;62;57;52;350;1;0;0;0;0;0;XY;18;x
@@ -935,7 +935,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 676;676_9;Furfrou;Furfrou Pharaoh Trim;6;1.2;28;Normal;;Fur Coat;;;White;50;50;0;20;Ground;;160;165;1000000;Ordinary;;;75;80;60;65;90;102;472;0;0;0;0;0;1;;;
 677;677_0;Espurr;Espurr;6;0.3;3.5;Psychic;;Keen Eye;Infiltrator;Own Tempo;Gray;50;50;0;20;Ground;;190;71;1000000;Ordinary;;;62;48;54;63;60;68;355;0;0;0;0;0;1;XY Flashfire;42;x
 678;678_0;Meowstic;Meowstic Male;6;0.6;8.5;Psychic;;Keen Eye;Infiltrator;Prankster;Blue;100;0;0;20;Ground;;75;163;1000000;Ordinary;;;74;48;76;83;81;104;466;0;0;0;0;0;2;XY Flashfire;43;
-678;678_2;Meowstic;Mega Meowstic;6;0.6;8.5;Psychic;;Keen Eye;Infiltrator;Prankster;Blue;100;0;0;20;Ground;;75;163;1000000;Ordinary;Mega;;74;48;76;83;81;104;466;0;0;0;0;0;2;XY Flashfire;43;
+678;678_2;Meowstic;Mega Meowstic;6;0.6;8.5;Psychic;;Keen Eye;Infiltrator;Prankster;Blue;100;0;0;20;Ground;;75;163;1000000;Ordinary;Mega;;74;48;76;83;81;104;466;0;0;0;0;0;2;;;
 678;678_1;Meowstic;Meowstic Female;6;0.6;8.5;Psychic;;Keen Eye;Infiltrator;Competitive;White;0;100;0;20;Ground;;75;163;1000000;Ordinary;;;74;48;76;83;81;104;466;0;0;0;0;0;2;XY Black Star Promos;XY48;
 679;679_0;Honedge;Honedge;6;0.8;2;Steel;Ghost;No Guard;;;Brown;50;50;0;20;Mineral;;180;65;1000000;Ordinary;;;45;80;100;35;37;28;325;0;0;1;0;0;0;XY;83;x
 680;680_0;Doublade;Doublade;6;0.8;4.5;Steel;Ghost;No Guard;;;Brown;50;50;0;20;Mineral;;90;157;1000000;Ordinary;;;59;110;150;45;49;35;448;0;0;2;0;0;0;XY;84;x
@@ -953,7 +953,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 689;689_1;Barbaracle;Mega Barbaracle;6;;;Rock;Fighting;;;;;50;50;0;;;;;;;;Mega;;72;140;130;64;106;88;600;;;;;;;;;
 690;690_0;Skrelp;Skrelp;6;0.5;7.3;Poison;Water;Poison Point;Poison Touch;Adaptability;Brown;50;50;0;20;Water1;Dragon;225;64;1000000;Ordinary;;;50;60;60;60;60;30;320;0;0;0;0;1;0;XY Flashfire;44;x
 691;691_0;Dragalge;Dragalge;6;1.8;81.5;Poison;Dragon;Poison Point;Poison Touch;Adaptability;Brown;50;50;0;20;Water1;Dragon;55;173;1000000;Ordinary;;;65;75;90;97;123;44;494;0;0;0;0;2;0;XY Flashfire;71;
-691;691_1;Dragalge;Mega Dragalge;6;2.1;100.3;Poison;Dragon;;;;;50;50;0;;;;;;;;Mega;;65;85;105;132;163;44;;;;;;;;;;x
+691;691_1;Dragalge;Mega Dragalge;6;2.1;100.3;Poison;Dragon;;;;;50;50;0;;;;;;;;Mega;;65;85;105;132;163;44;;;;;;;;ME Chaos Rising;65;x
 692;692_0;Clauncher;Clauncher;6;0.5;8.3;Water;;Mega Launcher;;;Blue;50;50;0;15;Water1;Water3;225;66;1250000;Ordinary;;;50;53;62;58;63;44;330;0;0;0;1;0;0;XY Furious Fists;23;
 693;693_0;Clawitzer;Clawitzer;6;1.3;35.3;Water;;Mega Launcher;;;Blue;50;50;0;15;Water1;Water3;55;100;1250000;Ordinary;;;71;73;88;120;89;59;500;0;0;0;2;0;0;XY Furious Fists;24;
 694;694_0;Helioptile;Helioptile;6;0.5;6;Electric;Normal;Dry Skin;Sand Veil;Solar Power;Yellow;50;50;0;20;Monster;Dragon;190;58;1000000;Ordinary;;;44;38;33;61;43;70;289;0;0;0;0;0;1;XY Flashfire;36;x
@@ -964,7 +964,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 699;699_0;Aurorus;Aurorus;6;2.7;225;Rock;Ice;Refrigerate;;Snow Warning;Blue;87.5;12.5;0;30;Monster;;45;104;1000000;Ordinary;;;123;77;72;99;92;58;521;2;0;0;0;0;0;XY Furious Fists;26;
 700;700_0;Sylveon;Sylveon;6;1;23.5;Fairy;;Cute Charm;;Pixilate;Pink;87.5;12.5;0;35;Ground;;45;184;1000000;Ordinary;;;95;65;65;110;130;60;525;0;0;0;0;2;0;XY Furious Fists;72;
 701;701_0;Hawlucha;Hawlucha;6;0.8;21.5;Fighting;Flying;Limber;Unburden;Mold Breaker;Green;50;50;0;20;Flying;Human-Like;100;175;1000000;Ordinary;;;78;92;75;74;63;118;500;0;2;0;0;0;0;XY Furious Fists;63;x
-701;701_1;Hawlucha;Mega Hawlucha;6;;;Fighting;Flying;;;;;50;50;0;20;Flying;Human-Like;100;;1000000;Ordinary;Mega;;;;;;;;500;0;2;0;0;0;0;;;x
+701;701_1;Hawlucha;Mega Hawlucha;6;;;Fighting;Flying;;;;;50;50;0;20;Flying;Human-Like;100;;1000000;Ordinary;Mega;;;;;;;;500;0;2;0;0;0;0;ME Ascended Heroes;116;x
 702;702_0;Dedenne;Dedenne;6;0.2;2.2;Electric;Fairy;Cheek Pouch;Pickup;Plus;Yellow;50;50;0;20;Ground;Fairy;180;151;1000000;Ordinary;;;67;58;57;81;67;101;431;0;0;0;0;0;2;XY Furious Fists;34;
 703;703_0;Carbink;Carbink;6;0.3;5.7;Rock;Fairy;Clear Body;;Sturdy;Gray;0;0;100;25;Fairy;Mineral;60;100;1250000;Ordinary;;;50;50;150;50;150;50;500;0;0;1;0;1;0;XY Flashfire;68;x
 704;704_0;Goomy;Goomy;6;0.3;2.8;Dragon;;Sap Sipper;Hydration;Gooey;Purple;50;50;0;40;Dragon;;45;60;1250000;Ordinary;;;45;50;35;55;75;40;300;0;0;0;0;1;0;XY Flashfire;72;x
@@ -993,9 +993,9 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 718;718_0;Zygarde;Zygarde 50% Form;6;5;305;Dragon;Ground;Aura Break;;;Green;0;0;100;120;Undiscovered;;3;300;1250000;Legendary;;;108;100;121;81;95;95;600;3;0;0;0;0;0;XY Fates Collide;53;
 718;718_1;Zygarde;Zygarde 10% Form;6;1.2;33.5;Dragon;Ground;Aura Break;;;Black;0;0;100;120;Undiscovered;;3;243;1250000;Legendary;;;54;100;71;61;85;115;486;3;0;0;0;0;0;XY Fates Collide;52;
 718;718_2;Zygarde;Zygarde Complete Form;6;4.5;610;Dragon;Ground;Power Construct;;;Black;0;0;100;120;Undiscovered;;3;354;1250000;Legendary;;;216;100;121;91;95;85;708;3;0;0;0;0;0;SM Burning Shadows;109;x
-718;718_1;Zygarde;Mega Zygarde;6;7.7;610;Dragon;Ground;;;;;50;50;0;;;;;;;;Mega;;216;70;91;216;85;100;778;;;;;;;;;
+718;718_1;Zygarde;Mega Zygarde;6;7.7;610;Dragon;Ground;;;;;50;50;0;;;;;;;;Mega;;216;70;91;216;85;100;778;;;;;;;ME Perfect Order;47;
 719;719_0;Diancie;Diancie;6;0.7;8.8;Rock;Fairy;Clear Body;;;Pink;0;0;100;25;Undiscovered;;3;300;1250000;Mythical;;;50;100;150;100;150;50;600;0;0;1;0;2;0;XY Phantom Forces;71;x
-719;719_1;Diancie;Mega Diancie;6;1.1;27.8;Rock;Fairy;Magic Bounce;;;Pink;0;0;100;25;Undiscovered;;3;315;1250000;Mythical;Mega;;50;160;110;160;110;110;700;0;0;1;0;2;0;XY Black Star Promos;XY44;x
+719;719_1;Diancie;Mega Diancie;6;1.1;27.8;Rock;Fairy;Magic Bounce;;;Pink;0;0;100;25;Undiscovered;;3;315;1250000;Mythical;Mega;;50;160;110;160;110;110;700;0;0;1;0;2;0;ME Phantasmal Flames;41;x
 720;720_0;Hoopa;Confined Hoopa;6;0.5;9;Psychic;Ghost;Magician;;;Purple;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;;;80;110;60;150;130;70;600;0;0;0;3;0;0;XY Black Star Promos;XY90;
 720;720_1;Hoopa;Unbound Hoopa;6;6.5;490;Psychic;Dark;Magician;;;Purple;0;0;100;120;Undiscovered;;3;340;1250000;Mythical;;;80;160;60;170;130;80;680;0;0;0;3;0;0;XY Steam Siege;51;
 721;721_0;Volcanion;Volcanion;6;1.7;195;Fire;Water;Water Absorb;;;Brown;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;;;80;110;120;130;90;70;600;0;0;0;3;0;0;XY Steam Siege;25;x
@@ -1019,7 +1019,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 738;738_0;Vikavolt;Vikavolt;7;1.5;45;Bug;Electric;Levitate;;;Blue;50;50;0;15;Bug;;45;250;1000000;Ordinary;;;77;70;90;145;75;43;500;0;0;0;3;0;0;Sun & Moon;52;x
 739;739_0;Crabrawler;Crabrawler;7;0.6;7;Fighting;;Hyper Cutter;Iron Fist;Anger Point;Purple;50;50;0;20;Water3;;225;68;1000000;Ordinary;;;47;82;57;42;47;63;338;0;1;0;0;0;0;Sun & Moon;72;
 740;740_0;Crabominable;Crabominable;7;1.7;180;Fighting;Ice;Hyper Cutter;Iron Fist;Anger Point;White;50;50;0;20;Water3;;60;167;1000000;Ordinary;;;97;132;77;62;67;43;478;0;2;0;0;0;0;Sun & Moon;43;
-740;740_1;Crabominable;Mega Crabominable;7;1.7;180;Fighting;Ice;Hyper Cutter;Iron Fist;Anger Point;White;50;50;0;20;Water3;;60;167;1000000;Ordinary;Mega;;97;132;77;62;67;43;478;0;2;0;0;0;0;Sun & Moon;43;
+740;740_1;Crabominable;Mega Crabominable;7;1.7;180;Fighting;Ice;Hyper Cutter;Iron Fist;Anger Point;White;50;50;0;20;Water3;;60;167;1000000;Ordinary;Mega;;97;132;77;62;67;43;478;0;2;0;0;0;0;;;
 741;741_0;Oricorio;Oricorio Baile Style;7;0.6;3.4;Fire;Flying;Dancer;;;Red;25;75;0;20;Flying;;45;167;1000000;Ordinary;;;75;70;70;98;70;93;476;0;0;0;2;0;0;SM Guardian Rising;14;x
 741;741_1;Oricorio;Oricorio Pom-Pom Style;7;0.6;3.4;Electric;Flying;Dancer;;;Yellow;25;75;0;20;Flying;;45;167;1000000;Ordinary;;;75;70;70;98;70;93;476;0;0;0;2;0;0;SM Guardian Rising;46;x
 741;741_2;Oricorio;Oricorio Pa'u Style;7;0.6;3.4;Psychic;Flying;Dancer;;;Pink;25;75;0;20;Flying;;45;167;1000000;Ordinary;;;75;70;70;98;70;93;476;0;0;0;2;0;0;SM Guardian Rising;55;x
@@ -1054,7 +1054,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 766;766_0;Passimian;Passimian;7;2;82.8;Fighting;;Receiver;;Defiant;White;50;50;0;20;Ground;;45;172;1250000;Ordinary;;;100;120;90;40;60;80;490;0;2;0;0;0;0;Sun & Moon;73;x
 767;767_0;Wimpod;Wimpod;7;0.5;12;Bug;Water;Wimp Out;;;Gray;50;50;0;20;Bug;Water3;90;46;1000000;Ordinary;;;25;35;40;20;30;80;230;0;0;0;0;0;1;SM Guardian Rising;8;x
 768;768_0;Golisopod;Golisopod;7;2;108;Bug;Water;Emergency Exit;;;Gray;50;50;0;20;Bug;Water3;45;186;1000000;Ordinary;;;75;125;140;60;90;40;530;0;0;2;0;0;0;SM Guardian Rising;9;x
-768;768_1;Golisopod;Mega Golisopod;7;2;108;Bug;Water;Emergency Exit;;;Gray;50;50;0;20;Bug;Water3;45;186;1000000;Ordinary;Mega;;75;125;140;60;90;40;530;0;0;2;0;0;0;SM Guardian Rising;9;
+768;768_1;Golisopod;Mega Golisopod;7;2;108;Bug;Water;Emergency Exit;;;Gray;50;50;0;20;Bug;Water3;45;186;1000000;Ordinary;Mega;;75;125;140;60;90;40;530;0;0;2;0;0;0;;;
 769;769_0;Sandygast;Sandygast;7;0.5;70;Ghost;Ground;Water Compaction;;Sand Veil;Brown;50;50;0;15;Amorphous;;140;64;1000000;Ordinary;;;55;55;80;70;45;15;320;0;0;1;0;0;0;SM Burning Shadows;61;x
 770;770_0;Palossand;Palossand;7;1.3;250;Ghost;Ground;Water Compaction;;Sand Veil;Brown;50;50;0;15;Amorphous;;60;168;1000000;Ordinary;;;85;75;110;100;75;35;480;0;0;2;0;0;0;SM Burning Shadows;62;x
 771;771_0;Pyukumuku;Pyukumuku;7;0.3;1.2;Water;;Innards Out;;Unaware;Black;50;50;0;15;Water1;;60;144;800000;Ordinary;;;55;60;130;30;130;5;410;0;0;0;0;2;0;Sun & Moon;47;x
@@ -1100,15 +1100,15 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 800;800_3;Necrozma;Ultra Necrozma;7;7.5;230;Psychic;Dragon;Neuroforce;;;Yellow;0;0;100;120;Undiscovered;;255;339;1250000;Legendary;;;97;167;97;167;97;129;754;0;1;0;1;0;1;SM Cosmic Eclipse;164;x
 801;801_0;Magearna;Magearna;7;1;80.5;Steel;Fairy;Soul-Heart;;;Gray;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;;;80;95;115;130;115;65;600;0;0;0;3;0;0;SM Lost Thunder;131;x
 801;801_1;Magearna;Magearna Original Color;7;1;80.5;Steel;Fairy;Soul-Heart;;;Gray;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;;;80;95;115;130;115;65;600;0;0;0;3;0;0;SM Lost Thunder;131;x
-801;801_2;Magearna;Mega Magearna;7;1;80.5;Steel;Fairy;Soul-Heart;;;Gray;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;Mega;;80;95;115;130;115;65;600;0;0;0;3;0;0;SM Lost Thunder;131;
-801;801_3;Magearna;Mega Magearna Original Color;7;1;80.5;Steel;Fairy;Soul-Heart;;;Gray;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;Mega;;80;95;115;130;115;65;600;0;0;0;3;0;0;SM Lost Thunder;131;
+801;801_2;Magearna;Mega Magearna;7;1;80.5;Steel;Fairy;Soul-Heart;;;Gray;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;Mega;;80;95;115;130;115;65;600;0;0;0;3;0;0;;;
+801;801_3;Magearna;Mega Magearna Original Color;7;1;80.5;Steel;Fairy;Soul-Heart;;;Gray;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;Mega;;80;95;115;130;115;65;600;0;0;0;3;0;0;;;
 802;802_0;Marshadow;Marshadow;7;0.7;22.2;Fighting;Ghost;Technician;;;Gray;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;;;90;125;80;90;90;125;600;0;2;0;0;0;1;Shining Legends;45;x
 803;803_0;Poipole;Poipole;7;0.6;1.8;Poison;;Beast Boost;;;Purple;0;0;100;120;Undiscovered;;45;210;1250000;Semi-Legendary;;;67;73;67;73;67;73;420;0;0;0;0;0;1;SM Lost Thunder;107;x
 804;804_0;Naganadel;Naganadel;7;3.6;150;Poison;Dragon;Beast Boost;;;Purple;0;0;100;120;Undiscovered;;45;270;1250000;Semi-Legendary;;;73;73;73;127;73;121;540;0;0;0;3;0;0;SM Lost Thunder;108;x
 805;805_0;Stakataka;Stakataka;7;5.5;820;Rock;Steel;Beast Boost;;;Gray;0;0;100;120;Undiscovered;;30;285;1250000;Semi-Legendary;;;61;131;211;53;101;13;570;0;0;3;0;0;0;SM Unbroken Bonds;106;x
 806;806_0;Blacephalon;Blacephalon;7;1.8;13;Fire;Ghost;Beast Boost;;;White;0;0;100;120;Undiscovered;;30;285;1250000;Semi-Legendary;;;53;127;53;151;79;107;570;0;0;0;3;0;0;SM Cosmic Eclipse;104;x
 807;807_0;Zeraora;Zeraora;7;1.5;44.5;Electric;;Volt Absorb;;;Yellow;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;;;88;112;75;102;80;143;600;0;0;0;0;0;3;SM Unbroken Bonds;60;x
-807;807_1;Zeraora;Mega Zeraora;7;1.5;44.5;Electric;;Volt Absorb;;;Yellow;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;Mega;;88;112;75;102;80;143;600;0;0;0;0;0;3;SM Unbroken Bonds;60;
+807;807_1;Zeraora;Mega Zeraora;7;1.5;44.5;Electric;;Volt Absorb;;;Yellow;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;Mega;;88;112;75;102;80;143;600;0;0;0;0;0;3;ME Pitch Black;27;x
 808;808_0;Meltan;Meltan;7;0.2;8;Steel;;Magnet Pull;;;Gray;0;0;100;120;Undiscovered;;3;150;1250000;Mythical;;;46;65;65;55;35;34;300;0;1;0;0;0;0;SM Unbroken Bonds;128;x
 809;809_0;Melmetal;Melmetal;7;2.5;800;Steel;;Iron Fist;;;Gray;0;0;100;120;Undiscovered;;3;300;1250000;Mythical;;;135;143;143;80;65;34;600;0;3;0;0;0;0;SM Unbroken Bonds;129;x
 809;809_1;Melmetal;Gigamax Melmetal;7;;;;;;;;;;;;;;;;;;;Gigamax;;;;;;;;;;;;;;;Pokï¿½mon GO;48;x
@@ -1312,7 +1312,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 968;968_0;Orthworm;Orthworm;9;2.5;310;Steel;;Earth Eater;;Sand Veil;Pink;50;50;0;35;Ground;;25;240;1250000;Ordinary;;;70;85;145;60;55;65;480;0;0;2;0;0;0;SV Paldea Evolved;151;x
 969;969_0;Glimmet;Glimmet;9;0.7;8;Rock;Poison;Toxic Debris;;Corrosion;Blue;50;50;0;30;Mineral;;70;70;1059860;Ordinary;;;48;35;42;105;60;60;350;0;0;0;1;0;0;Scarlet & Violet;125;x
 970;970_0;Glimmora;Glimmora;9;1.5;45;Rock;Poison;Toxic Debris;;Corrosion;Blue;50;50;0;30;Mineral;;25;184;1059860;Ordinary;;;83;55;90;130;81;86;525;0;0;0;2;0;0;SV Paldea Evolved;126;x
-970;970_1;Glimmora;Mega Glimmora;9;1.5;45;Rock;Poison;Toxic Debris;;Corrosion;Blue;50;50;0;30;Mineral;;25;184;1059860;Ordinary;Mega;;83;55;90;130;81;86;525;0;0;0;2;0;0;SV Paldea Evolved;126;
+970;970_1;Glimmora;Mega Glimmora;9;1.5;45;Rock;Poison;Toxic Debris;;Corrosion;Blue;50;50;0;30;Mineral;;25;184;1059860;Ordinary;Mega;;83;55;90;130;81;86;525;0;0;0;2;0;0;;;
 971;971_0;Greavard;Greavard;9;0.6;35;Ghost;;Pickup;;Fluffy;White;50;50;0;20;Ground;;120;58;1059860;Ordinary;;;50;61;60;30;55;34;290;0;1;0;0;0;0;Scarlet & Violet;104;x
 972;972_0;Houndstone;Houndstone;9;2;15;Ghost;;Sand Rush;;Fluffy;White;50;50;0;20;Ground;;60;171;1059860;Ordinary;;;72;101;100;50;97;68;488;0;2;0;0;0;0;Scarlet & Violet;106;x
 973;973_0;Flamigo;Flamigo;9;1.6;37;Flying;Fighting;Scrappy;Tangled Feet;Costar;Pink;50;50;0;20;Flying;;100;175;1059860;Ordinary;;;82;115;74;75;64;90;500;0;2;0;0;0;0;Scarlet & Violet;165;x
@@ -1323,7 +1323,7 @@ No;Branch_Code;Original_Name;Name;Generation;Height;Weight;Type1;Type2;Ability1;
 978;978_0;Tatsugiri;Tatsugiri Curly Form;9;0.3;8;Dragon;Water;Commander;;Storm Drain;Pink;50;50;0;35;Water2;;100;166;1059860;Ordinary;;;68;50;60;120;95;82;475;0;0;0;2;0;0;Scarlet & Violet;62;x
 978;978_1;Tatsugiri;Tatsugiri Droopy Form;9;0.3;8;Dragon;Water;Commander;;Storm Drain;Red;50;50;0;35;Water2;;100;166;1059860;Ordinary;;;68;50;60;120;95;82;475;0;0;0;2;0;0;;;
 978;978_2;Tatsugiri;Tatsugiri Stretchy Form;9;0.3;8;Dragon;Water;Commander;;Storm Drain;Yellow;50;50;0;35;Water2;;100;166;1059860;Ordinary;;;68;50;60;120;95;82;475;0;0;0;2;0;0;;;
-978;978_3;Tatsugiri;Mega Tatsugiri Curly Form;9;0.3;8;Dragon;Water;Commander;;Storm Drain;Pink;50;50;0;35;Water2;;100;166;1059860;Ordinary;Mega;;68;50;60;120;95;82;475;0;0;0;2;0;0;Scarlet & Violet;62;
+978;978_3;Tatsugiri;Mega Tatsugiri Curly Form;9;0.3;8;Dragon;Water;Commander;;Storm Drain;Pink;50;50;0;35;Water2;;100;166;1059860;Ordinary;Mega;;68;50;60;120;95;82;475;0;0;0;2;0;0;;;
 978;978_4;Tatsugiri;Mega Tatsugiri Droopy Form;9;0.3;8;Dragon;Water;Commander;;Storm Drain;Red;50;50;0;35;Water2;;100;166;1059860;Ordinary;Mega;;68;50;60;120;95;82;475;0;0;0;2;0;0;;;
 978;978_5;Tatsugiri;Mega Tatsugiri Stretchy Form;9;0.3;8;Dragon;Water;Commander;;Storm Drain;Yellow;50;50;0;35;Water2;;100;166;1059860;Ordinary;Mega;;68;50;60;120;95;82;475;0;0;0;2;0;0;;;
 979;979_0;Annihilape;Annihilape;9;1.2;56;Fighting;Ghost;Vital Spirit;Inner Focus;Defiant;Gray;50;50;0;20;Ground;;45;268;1000000;Ordinary;;;110;115;80;50;90;90;535;0;3;0;0;0;0;Scarlet & Violet;109;x
